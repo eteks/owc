@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: C:\xampp\htdocs\owc\sitemap.xml

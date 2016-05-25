@@ -1683,7 +1683,7 @@ table {
 }
 
 th {
-    text-align: left
+    text-align: center;
 }
 
 .table {
@@ -6919,7 +6919,7 @@ body {
     padding: 0px;
     background: #fff;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.62857143
 }
 
@@ -6942,7 +6942,9 @@ ul {
 
 p {
     color: #6d6d6d;
-    font-size: 13px
+    font-size: 16px;
+    line-height:1.4em;
+    text-intent: 20px;
 }
 
 .no-pad {
@@ -9334,7 +9336,7 @@ a:focus {
 }
 
 .intro-content-wrap p {
-    padding-bottom: 15px;
+    padding-bottom: 16px;
     line-height: 1.65em
 }
 
@@ -9428,7 +9430,8 @@ a:focus {
     color: #6d6d6d;
     font-size: 16px;
     line-height: 1.4em;
-    padding-top: 20px
+    padding-top: 20px;
+    text-align: justify;
 }
 
 .features-list-title {
@@ -9727,7 +9730,7 @@ a:focus {
     color: #414042;
     font-size: 30px;
     text-align: center;
-    padding-bottom: 40px
+    /*padding-bottom: 40px*/
 }
 
 .full-content p {
@@ -9815,7 +9818,7 @@ a:focus {
 .service-title {
     width: 100%;
     color: #414042;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 1.6em
 }
 
@@ -13053,8 +13056,8 @@ input[type="date"] {
 }
 
 .purchase-strip-text {
-    line-height: 2em;
-    font-size: 13px;
+    line-height: 1.4em;
+    font-size: 16px;
     color: #6D6D6D;
     padding: 10px 0px;
     text-align: justify;
@@ -14613,7 +14616,7 @@ input[type="date"] {
 
 @media (min-width:992px) {
     .table-elements {
-        width: 80%;
+        width: 100%;
         margin: 0 auto
     }
     .contact-v2 {
@@ -19218,17 +19221,17 @@ input[type="date"] {
 	float:left;
 }
 .home_title{
-	font-size:26px;
+	font-size:24px;
 	color:#EEEEEE;
 }
 .home_second_wrapper{
-	font-size:14px;
+	font-size:16px;
 	color:#000 !important;
 }
 /*End of muthu css*/
 /*By vignesh*/
 .vision{
-    font-size: 25px !important;
+    font-size: 24px !important;
     color: #107fc9 !important;
 }
 .thumbnail{
@@ -19242,20 +19245,41 @@ input[type="date"] {
 }
 .need_text{
     color:  #107fc9 !important;
-    font-size: 25px !important;
+    font-size: 24px !important;
     text-align: center;
 }
 .text_1{
     text-align:justify;
-    font-size: 15px !important;
+    font-size: 16px !important;
 }
 .text_2{
     text-align:justify;
     padding-left: 65px;
-    font-size: 15px !important;
+    font-size: 16px !important;
 }
 .bold_text{
     font-weight: bold;
+}
+.life_cycle{
+    text-align: center;
+    font-size: 20px;
+}
+.text_3{
+    text-align:justify;
+    padding-left: 30px;
+    font-size: 15px !important;
+}
+.ref{
+    text-align: left;
+    font-size: 20px !important;
+}
+.main{
+    text-align: left;
+    font-size: 20px;
+}
+.line{
+    line-height: 3.5em !important;
+    font-size: 16px !important;
 }
 /*End of vignesh css*/
 /*Akila-css start*/
@@ -19269,7 +19293,10 @@ h5,.h5{color:#107fc9;}
 
 .principle_color{color:#107fc9 !important;}
 
-#heading-title{color:#107fc9;}
+#heading-title{
+	color:#107fc9;
+	font-size:22px;
+}
 
 
 
@@ -19285,4 +19312,47 @@ h5,.h5{color:#107fc9;}
 @media(max-width:768px){h5,.h5{
 	margin-left: 10px;
 	color:#107fc9;} }
+figcaption{color:#0BA3DE;
+              font-size:15px !important;
+              font-weight: bold;
+          }
+          
+.reference{color:#0BA3DE;
+			font-size:15px !important;
+			}
+ 
+  .innov {font-size:15px; text-align:justify !important;}   
+
+.chemworld{width:90% !important;}
+
+.innovation_para2{margin :20px;}
+
+.question-box{margin-bottom:45px;}
+
+.question-strip-text{color: #ffffff;
+    float: left;
+    font-family: noto sans;
+    font-size: 16px;
+    line-height: 2em;
+    padding: 10px 0;
+    text-align: justify; }
+
+.answer-box{text-align:center;}
+
+ .edu_bottom_text{text-align:justify !important;} 
+
+
+/*25th OWC responsive css  */
+
+@media(max-width:768px){.responsive_chart {
+	width:100% !important; }
+}
+
+
+@media(max-width:768px){.cw_picture{width:100% !important;}}
+
+@media(max-width:768px){p{text-align:justify!important;}}
 /*Akila-css end*/
+.padding_20{
+	padding-left: 20px;
+}
