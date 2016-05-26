@@ -9093,6 +9093,9 @@ label.error {
     padding: 10px 0 10px 30px;
     list-style-position: inside
 }
+#vision .elemnts-wrap.intro-content-wrap li {
+	font-size:16px;
+}
 
 .elemnts-wrap.intro-content-wrap li .about-list-arrows {
     font-size: 15px;
@@ -9433,7 +9436,9 @@ a:focus {
     padding-top: 20px;
     text-align: justify;
 }
-
+#unsus .heading-content p {
+	text-align: center;
+}
 .features-list-title {
     font-size: 15px;
     color: #107fc9;
@@ -9829,6 +9834,7 @@ a:focus {
 .service-title .icon-hospital,
 .service-title .icon-food,
 .service-title .icon-eye-open,
+.service-title .icon-file,
 .service-title .icon-female,
 .service-title .dept-mail-icon {
     color: #fff;
@@ -18872,7 +18878,7 @@ input[type="date"] {
     transition: .5s
 }
 
-#shortcode-12 .intro-content-wrap li .no-circle {
+#shortcode-12 .intro-content-wrap li .no-circle, .intro-content-wrap li .no-circle {
     font-size: 15px;
     line-height: 18px;
     text-align: center;
@@ -19230,10 +19236,7 @@ input[type="date"] {
 }
 /*End of muthu css*/
 /*By vignesh*/
-.vision{
-    font-size: 24px !important;
-    color: #107fc9 !important;
-}
+
 .thumbnail{
     border: none!important;
 }
@@ -19355,4 +19358,14 @@ figcaption{color:#0BA3DE;
 /*Akila-css end*/
 .padding_20{
 	padding-left: 20px;
+}
+.sd_para1 p{
+	text-align: justify;
+}
+#historic .elemnts-wrap.intro-content-wrap li{
+	font-size: 16px;
+	text-align: justify;
+}
+#education .edu_heading h2{
+	padding: 0px 0px 13px 0px;
 }
