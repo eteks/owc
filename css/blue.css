@@ -7402,9 +7402,9 @@ ul.tert-nav li.searchit {
     position: relative
 }
 
-#bs-example-navbar-collapse-1>ul>li:hover>ul {
+#bs-example-navbar-collapse-1 ul li:hover ul {
     top: 100%;
-    visibility: visible;
+    display:block;
     opacity: 1 !important;
     margin: 0px 0 0 0 !important
 }
@@ -7434,8 +7434,8 @@ ul.tert-nav li.searchit {
     -ms-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    display: inline;
-    visibility: hidden
+    display: none;
+    z-index: 9999;
 }
 
 #bs-example-navbar-collapse-1>ul>li:nth-child(2)>ul>li.dropdown-submenu>ul {
@@ -9083,14 +9083,14 @@ label.error {
     border-bottom: 1px solid #f1f2f2;
     line-height: 1.5em;
     color: #6d6d6d;
-    font-size: 13px;
+    font-size: 16px;
     padding-left: 35px;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
-    padding: 10px 0 10px 30px;
+    padding: 10px 0 10px 0px;
     list-style-position: inside
 }
 #vision .elemnts-wrap.intro-content-wrap li {
@@ -9370,7 +9370,7 @@ a:focus {
     text-align: center;
     color: #107fc9;
     border-radius: 50%;
-    margin: 19px 0 0 -35px;
+    margin: 12px 0 0 -35px;
     float: left;
     border: 1px solid;
     -webkit-transition: .5s;
@@ -9380,7 +9380,7 @@ a:focus {
     transition: .5s
 }
 
-.intro-content-wrap li:hover {
+/*.intro-content-wrap li:hover {
     color: #107fc9;
     font-size: 13px;
     -webkit-transition: all 200ms ease-in;
@@ -9388,7 +9388,7 @@ a:focus {
     -ms-transition: all 200ms ease-in;
     -o-transition: all 200ms ease-in;
     transition: all 200ms ease-in
-}
+}*/
 
 .intro-content-wrap li:hover .about-list-arrows {
     background: #107fc9;
@@ -9728,7 +9728,15 @@ a:focus {
     background: #fff;
     padding: 30px 0 15px 0
 }
-
+.full-content {
+    float: left;
+    line-height: 1.3em;
+    color: #414042;
+    font-size: px;
+    text-align: center;
+    /*padding-bottom: 40px*/
+}
+@media(min-width:768px){
 .full-content {
     float: left;
     line-height: 1.5em;
@@ -9736,6 +9744,7 @@ a:focus {
     font-size: 30px;
     text-align: center;
     /*padding-bottom: 40px*/
+}
 }
 
 .full-content p {
@@ -14215,7 +14224,8 @@ input[type="date"] {
     padding-bottom: 35px;
     text-transform: uppercase;
     float: left;
-    width: 100%
+    width: 100%;
+    text-align: center;
 }
 
 .foot-widget .foot-widget-title:last-child {
@@ -14358,7 +14368,7 @@ input[type="date"] {
 }
 
 .complete-content {
-    float: left;
+    
     width: 100%;
     margin-bottom: 112px;
     background: #fff;
@@ -14743,7 +14753,7 @@ input[type="date"] {
     }
     .navbar {
         position: relative;
-        height: 61px;
+        height: 100%;
         margin-bottom: 0px;
         border: none;
         line-height: 57px
@@ -19219,9 +19229,17 @@ input[type="date"] {
 }
 .logo_subtitle{
 	color: #107fc9;
-    font-size: 24px;
+    font-size: 3.4vw;
     padding: 0 5px;
     text-align: center;
+}
+@media (min-width:768px) {
+.logo_subtitle{
+	color: #107fc9;
+    font-size: 1.4vw;
+    padding: 0 5px;
+    text-align: center;
+}
 }
 .logo_chem{
 	float:left;
@@ -19281,9 +19299,17 @@ input[type="date"] {
     font-size: 20px;
 }
 .line{
-    line-height: 3.5em !important;
+	line-height: 2.4em !important;
     font-size: 16px !important;
+    text-align:justify;
 }
+@media(min-width:786px){
+	.line{
+	    line-height: 2.4em !important;
+	    font-size: 16px !important;
+	}
+}
+
 /*End of vignesh css*/
 /*Akila-css start*/
 /* Sustainable development style   */
