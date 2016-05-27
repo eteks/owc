@@ -9080,7 +9080,7 @@ label.error {
 
 .elemnts-wrap.intro-content-wrap li {
     list-style-type: none;
-    border-bottom: 1px solid #f1f2f2;
+    /*border-bottom: 1px solid #f1f2f2;*/
     line-height: 1.5em;
     color: #6d6d6d;
     font-size: 16px;
@@ -9339,7 +9339,7 @@ a:focus {
 }
 
 .intro-content-wrap p {
-    padding-bottom: 16px;
+    /*padding-bottom: 16px;*/
     line-height: 1.65em
 }
 
@@ -9350,7 +9350,7 @@ a:focus {
 
 .intro-content-wrap li {
     list-style-type: none;
-    border-bottom: 1px solid #f1f2f2;
+    /*border-bottom: 1px solid #f1f2f2;*/
     line-height: 4.5em;
     color: #6d6d6d;
     font-size: 13px;
@@ -9359,7 +9359,8 @@ a:focus {
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
-    transition: .5s
+    transition: .5s;
+    text-align:justify;
 }
 
 .intro-content-wrap li .about-list-arrows {
@@ -9433,19 +9434,17 @@ a:focus {
     color: #6d6d6d;
     font-size: 16px;
     line-height: 1.4em;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     text-align: justify;
 }
-#unsus .heading-content p {
-	text-align: center;
-}
+
 .features-list-title {
     font-size: 15px;
     color: #107fc9;
     line-height: 1.8em;
     border-bottom: 1px solid #dcddde;
     margin-bottom: 20px;
-    padding: 0 0 10px 0
+    /*padding: 0 0 10px 0*/
 }
 
 .features-list ul {
@@ -19344,7 +19343,7 @@ input[type="date"] {
 .section_name1 .col-lg-6 {
     width: 100%
 }
-h5,.h5{color:#107fc9;}
+
 
 .principle_color{color:#107fc9 !important;}
 
@@ -19444,4 +19443,7 @@ figcaption{color:#0BA3DE;
 #tab-home ol {
 	padding : 0px;
 }
-
+#historic .full-content p,#icod .full-content p{
+	text-align: justify;
+	padding:0px;
+}
