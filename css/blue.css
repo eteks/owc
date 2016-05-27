@@ -7063,7 +7063,7 @@ p {
 
 #headerstic {
     position: relative;
-    z-index: 99999999
+    z-index: 99999999;
 }
 
 .search-bar-icon {
@@ -7479,7 +7479,7 @@ ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover>ul.dropdown-menu {
 }
 
 #bs-example-navbar-collapse-1>ul>li:nth-child(6)>ul {
-    left: -80px !important
+    left: 0px !important
 }
 
 #accordion nav a {
@@ -14135,7 +14135,7 @@ input[type="date"] {
 }
 
 .foot-widget {
-    border-bottom: 1px solid #272424;
+   
     margin-bottom: 20px
 }
 
@@ -16183,14 +16183,26 @@ input[type="date"] {
         line-height: 20px
     }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a,
-    .dropdown-menu>li>a {
-        color: #e6e6e6 !important;
-        font-size: 12px !important;
-        line-height: 21px !important;
-        height: 34px !important;
-        padding-left: 47px !important;
-        padding-right: 58px !important
+	    .dropdown-menu>li>a {
+	        color: #e6e6e6 !important;
+	        font-size: 10px !important;
+	        line-height: 21px !important;
+	        height: 34px !important;
+	        padding-left: 16px !important;
+	        padding-right: 58px !important
+	    }
+    @media (min-width:786px){
+    	.navbar-default .navbar-nav .open .dropdown-menu>li>a,
+	    .dropdown-menu>li>a {
+	        color: #e6e6e6 !important;
+	        font-size: 12px !important;
+	        line-height: 21px !important;
+	        height: 34px !important;
+	        padding-left: 47px !important;
+	        padding-right: 58px !important
+	    }
     }
+    
     .dropdown-menu>li {
         margin: 0px 0px 0 0px;
         background: url(../images/li-li-bottom.jpg) repeat-x bottom;
@@ -19409,8 +19421,20 @@ figcaption{color:#0BA3DE;
 #education .edu_heading h2{
 	padding: 0px 0px 13px 0px;
 }
-/*.owc_cycle{
-	background: url(../images/health_cycle.png);
-	width:auto;
-	height:auto;
-}*/
+.owc_cycle{
+		background: url(../images/ocw_summery.png);
+		background-size:cover;
+		height: 174px;
+
+}
+@media(min-width:786px){
+	.owc_cycle{
+		background: url(../images/ocw_summery.png);
+		background-size:cover;
+		height: 313px;
+
+	}
+}
+.no-margin{
+	
+}
