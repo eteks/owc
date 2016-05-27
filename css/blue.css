@@ -19436,8 +19436,12 @@ figcaption{color:#0BA3DE;
 	}
 }
 .no-margin{
-	
 }
 .tab-content p{
 	text-align:justify !important;	
 }
+/* Added by siva */
+#tab-home ol {
+	padding : 0px;
+}
+
