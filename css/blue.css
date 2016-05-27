@@ -7042,7 +7042,7 @@ p {
 .bread-crumb li {
     list-style-type: none;
     display: inline;
-    background: url(../images/bread-crumb-arrow.png) no-repeat 0 5px;
+    background: url(../images/bread-crumb-arrow.png) no-repeat 0 10px;
     padding: 0 0 0 15px
 }
 
@@ -14508,11 +14508,11 @@ input[type="date"] {
     }
     .purchase-strip-text {
         line-height: 1em;
-        font-size: 20px;
-        color: #eee;
-        padding: 33px 0px;
-        text-align: left;
-        float: left
+        font-size: 16px;
+        color: #6d6d6d;
+        padding: 10px 0px;
+        text-align: justify;
+     
     }
     .purchase-strip-blue .color-4 {
         padding: 20px 0;
@@ -16582,11 +16582,11 @@ input[type="date"] {
         padding: 0 0 25px 0px
     }
     .purchase-strip-text {
-        line-height: 1.3em;
-        font-size: 20px;
-        color: #eee;
-        padding: 25px 0 15px 0px;
-        text-align: center;
+        line-height: 1.0em;
+        font-size: 16px;
+        color: #6d6d6d;
+        
+        text-align: justify;
         width: auto;
         float: none;
         margin: 0 auto
@@ -19233,6 +19233,10 @@ input[type="date"] {
     padding: 0 5px;
     text-align: center;
 }
+.logo_subtitle_under{
+	text-align: center;
+	font-size: 2.4vw;
+}
 @media (min-width:768px) {
 .logo_subtitle{
 	color: #107fc9;
@@ -19240,13 +19244,23 @@ input[type="date"] {
     padding: 0 5px;
     text-align: center;
 }
+.logo_subtitle_under{
+	text-align: center;
+	font-size: 1vw;
+}
 }
 .logo_chem{
 	float:left;
 }
 .home_title{
-	font-size:24px;
+	font-size:16px;
 	color:#EEEEEE;
+}
+@media(min-width:786px){
+	.home_title{
+		font-size:24px;
+		color:#EEEEEE;
+	}
 }
 .home_second_wrapper{
 	font-size:16px;
@@ -19395,3 +19409,8 @@ figcaption{color:#0BA3DE;
 #education .edu_heading h2{
 	padding: 0px 0px 13px 0px;
 }
+/*.owc_cycle{
+	background: url(../images/health_cycle.png);
+	width:auto;
+	height:auto;
+}*/
