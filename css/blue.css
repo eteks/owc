@@ -314,8 +314,8 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
-    background-color: #fff
+    color: #6d6d6d;
+    background-color: #fff;
 }
 
 input,
@@ -19437,4 +19437,7 @@ figcaption{color:#0BA3DE;
 }
 .no-margin{
 	
+}
+.tab-content p{
+	text-align:justify !important;	
 }
