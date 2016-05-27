@@ -19438,3 +19438,7 @@ figcaption{color:#0BA3DE;
 .no-margin{
 	
 }
+/* Added by siva */
+#tab-home ol {
+	padding : 0px;
+}
