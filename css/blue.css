@@ -9426,8 +9426,8 @@ a:focus {
     color: #414042;
     font-size: 30px;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px
+    /*padding-top: 60px;
+    padding-bottom: 60px*/
 }
 
 .heading-content p {
@@ -14369,14 +14369,9 @@ input[type="date"] {
 .complete-content {
     
     width: 100%;
-    margin-bottom: 112px;
     background: #fff;
     overflow-y: hidden;
     height: 100%
-}
-
-.content-footer-space {
-    padding-bottom: 90px
 }
 
 .foot-widget {
@@ -19435,6 +19430,7 @@ figcaption{color:#0BA3DE;
 	}
 }
 .no-margin{
+	margin: 0px !important;
 }
 .tab-content p{
 	text-align:justify !important;	
