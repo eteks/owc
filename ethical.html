@@ -107,6 +107,7 @@
         		</div>
       		</div>
     	</header>
+    	<div style="clear:both"> </div>
     	<section class="complete-content content-footer-space">	
       		<div class="about-intro-wrap pull-left">
      			<div class="bread-crumb-wrap ibc-wrap-1">
@@ -124,10 +125,10 @@
 			     	</div>
      			</div>
 			 	<div class="container">
-			        <div class="col-md-12 col-xs-12 col-sm-12 pull-left full-content wow fadeInLeft animated no-pad" data-wow-delay="0.3s" data-wow-offset="130">
+			        <div class="col-md-12 col-xs-12 col-sm-12 pull-left full-content wow fadeInLeft animated no-pad" data-wow-delay="0.3s" data-wow-offset="0">
 			            <p class="text_1">While physicians have the Hippocratic Oath, there has been no equivalent set of ethical principles to guide the conduct of those working in the chemical sciences. The physicians’ principle of ‘do no harm’ is a good starting point for all practitioners of the sciences (as well as everyone else in society). In 2015, a group of chemists (including Henning Hopf, one of the authors of One-World Chemistry) convened by the Organization for the Prohibition of Chemical Weapons developed a consensus in the form of The Hague Ethical Guidelines<sup>30</sup> based on ‘norms of the practice of chemistry’. The main elements of the guidelines align closely with the principles of One-World Chemistry.</p>
 			        </div>   
-					<div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad wow fadeInUp animated animated" data-wow-offset="150" data-wow-delay="0.7s" style="visibility: visible;">
+					<div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad wow fadeInUp animated animated" data-wow-offset="0" data-wow-delay="0.5s" style="visibility: visible;">
 						<p class="main">Main elements of the Hague Ethical Guidelines:</p>
 						<ul>
 							<li class="line">
@@ -136,7 +137,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad wow fadeInUp animated animated" data-wow-offset="150" data-wow-delay="0.7s" style="visibility: visible;">
+					<div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad wow fadeInUp animated animated" data-wow-offset="0" data-wow-delay="0.7s" style="visibility: visible;">
 						<ul>
 							<li class="line">
 								• 
@@ -144,7 +145,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad wow fadeInUp animated animated" data-wow-offset="150" data-wow-delay="0.7s" style="visibility: visible;">
+					<div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad wow fadeInUp animated animated" data-wow-offset="150" data-wow-delay="0.3s" style="visibility: visible;">
 						<ul>
 							<li class="line">
 								• 
@@ -152,7 +153,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad wow fadeInUp animated animated" data-wow-offset="150" data-wow-delay="0.7s" style="visibility: visible;">
+					<div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad wow fadeInUp animated animated" data-wow-offset="150" data-wow-delay="0.5s" style="visibility: visible;">
 						<ul>
 							<li class="line">
 								• 
@@ -168,7 +169,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad wow fadeInUp animated animated" data-wow-offset="150" data-wow-delay="0.7s" style="visibility: visible;">
+					<div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad wow fadeInUp animated animated" data-wow-offset="130" data-wow-delay="0.5s" style="visibility: visible;">
 						<ul>
 							<li class="line">
 								• 
@@ -234,5 +235,38 @@
 	    <script type="text/javascript" src="js/jquery.flexisel.min.js"></script>
 	    <script type="text/javascript" src="js/jquery.imedica.min.js"></script>
 	    <script type="text/javascript" src="js/custom-imedicajs.min.js"></script>
+	    <script type="text/javascript">
+		$(document).ready(function(){
+				$(document).on( "keydown", function( event ) {
+					//page down and down arrow action
+					if(event.which == 34 || event.which == 40){
+						var windowscroll = $(window).scrollTop();
+						if(windowscroll >= 0 && windowscroll< 314){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 314}, 1000);
+						}
+						else if(windowscroll>= 314){
+							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
+						}
+					}
+					//page up and up arrow action
+					if(event.which == 33 || event.which == 38){
+						var windowscroll = $(window).scrollTop();
+						if(windowscroll >= 0 && windowscroll<= 314){ //scroll to first part
+							$('html, body').stop().animate({scrollTop: 0}, 1000);
+						}
+						
+						else if(windowscroll> 314){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 314}, 1000);
+						}
+					}
+					// Home key and End key action
+					if(event.which == 36){
+						$('html, body').stop().animate({scrollTop: 0}, 1000);
+					}else if(event.which == 35){
+						$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
+					}
+				});
+			});
+	</script>
 	</body>
 </html>

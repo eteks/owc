@@ -112,7 +112,7 @@
         		</div>
       		</div>
     	</header>
-    
+    <div style="clear:both"> </div>
     <section class="complete-content">
     
     <div class="about-intro-wrap pull-left">
@@ -185,6 +185,25 @@
     <script type="text/javascript" src="js/jquery.flexisel.min.js"></script>
     <script type="text/javascript" src="js/jquery.imedica.min.js"></script>
     <script type="text/javascript" src="js/custom-imedicajs.min.js"></script>
-    
+    <script type="text/javascript">
+    	$(document).ready(function(){
+				$(document).on( "keydown", function( event ) {
+					//page down and down arrow action
+					if(event.which == 34 || event.which == 40){
+						$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
+					}
+					//page up and up arrow action
+					if(event.which == 33 || event.which == 38){
+						$('html, body').stop().animate({scrollTop: 0}, 1000);
+					}
+					// Home key and End key action
+					if(event.which == 36){
+						$('html, body').stop().animate({scrollTop: 0}, 1000);
+					}else if(event.which == 35){
+						$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
+					}
+				});
+			});
+    </script>
 </body>
 </html>

@@ -9740,7 +9740,7 @@ a:focus {
     float: left;
     line-height: 1.5em;
     color: #414042;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     /*padding-bottom: 40px*/
 }
@@ -14358,6 +14358,7 @@ input[type="date"] {
 }
 
 .complete-footer {
+	margin-top: 20px;
     float: left;
     width: 100%;
     position: fixed;
@@ -17569,7 +17570,7 @@ input[type="date"] {
 }
 
 #service-version-two .about-top-pad {
-    padding-top: 25px
+    /*padding-top: 25px*/
 }
 
 #service-version-two .rot-y .panel-icon {

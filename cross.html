@@ -107,6 +107,7 @@
         		</div>
       		</div>
     	</header>
+    	<div style="clear:both"> </div>
     	<section class="complete-content">
     		<div id="price-plan-section">
     			<div class="about-intro-wrap pull-left">
@@ -216,5 +217,67 @@
 	    <script type="text/javascript" src="js/jquery.flexisel.min.js"></script>
 	    <script type="text/javascript" src="js/jquery.imedica.min.js"></script>
 	    <script type="text/javascript" src="js/custom-imedicajs.min.js"></script>
+	    <script type="text/javascript">
+		$(document).ready(function(){
+				$(document).on( "keydown", function( event ) {
+					//page down and down arrow action
+					if(event.which == 34 || event.which == 40){
+						var windowscroll = $(window).scrollTop();
+						if(windowscroll >= 0 && windowscroll< 5){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 5}, 1000);
+						}
+						else if(windowscroll >= 5 && windowscroll< 449){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 449}, 1000);
+						}
+						else if(windowscroll >= 449 && windowscroll< 883){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 883}, 1000);
+						}
+						else if(windowscroll >= 883 && windowscroll< 1241){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 1241}, 1000);
+						}
+						else if(windowscroll >= 1241 && windowscroll< 1717){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 1717}, 1000);
+						}
+						else if(windowscroll >= 1717 && windowscroll< 2178){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 2178}, 1000);
+						}
+						else if(windowscroll>= 2178){
+							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
+						}
+					}
+					//page up and up arrow action
+					if(event.which == 33 || event.which == 38){
+						var windowscroll = $(window).scrollTop();
+						if(windowscroll >= 0 && windowscroll<= 5){ //scroll to first part
+							$('html, body').stop().animate({scrollTop: 0}, 1000);
+						}
+						else if(windowscroll > 5 && windowscroll<= 449){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 5}, 1000);
+						}
+						else if(windowscroll > 449 && windowscroll<= 883){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 449}, 1000);
+						}
+						else if(windowscroll > 883 && windowscroll<= 1241){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 883}, 1000);
+						}
+						else if(windowscroll > 1241 && windowscroll<= 1717){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 1241}, 1000);
+						}
+						else if(windowscroll > 1717 && windowscroll<= 2178){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 1717}, 1000);
+						}
+						else if(windowscroll> 2178){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 2178}, 1000);
+						}
+					}
+					// Home key and End key action
+					if(event.which == 36){
+						$('html, body').stop().animate({scrollTop: 0}, 1000);
+					}else if(event.which == 35){
+						$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
+					}
+				});
+			});
+	</script>
 	</body>
 </html>

@@ -107,6 +107,7 @@
         		</div>
       		</div>
     	</header>
+    	<div style="clear:both"> </div>
     	<section class="complete-content content-footer-space">	
 			<div class="short10-content-wrap">
     			<div id="shortcode-11">
@@ -127,14 +128,14 @@
   					</div>
     				<div class="container">
        					<div class="col-md-12 col-xs-12 col-sm-12 pull-left ibg-transparent edu_heading no-pad">
-       						<p class="notViewed wow fadeInUp" data-wow-delay="0.5s" data-wow-offset="150"><b>What are the implications of the concept or One-World Chemistry for chemistry education?</b></p>
+       						<p class="notViewed wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="150"><b>What are the implications of the concept or One-World Chemistry for chemistry education?</b></p>
 				       		<br>
 				       		<p class="notViewed wow fadeInUp" data-wow-delay="0.5s" data-wow-offset="150">Two decades ago, Fourez<sup>22</sup> asked the question:</p>
 				       		<p class="notViewed wow fadeInUp" data-wow-delay="0.5s" data-wow-offset="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>'Do we teach biology, chemistry, physics, mathematics, or do we teach young people how to cope with their own world?'</i></p>	
 				       	    <br>
 				       	    <p class="notViewed wow fadeInUp"  data-wow-delay="0.5s" data-wow-offset="150">Answering this question has led science educators to a rethinking of scientific literacy and thinking about science education as in terms of ‘participation in the community’.<sup>23</sup> This approach resonates well with the concept of One-World Chemistry that chemistry should embrace <i>‘being a science for the benefit of society’.</i></p>
 				       	    <br>
-				       	    <p class="notViewed wow fadeInUp"  data-wow-delay="0.5s" data-wow-offset="150">What are the implications for how chemistry is taught? One-World Chemistry does NOT argue for the abandonment of teaching individual sciences in favour of an undifferentiated ‘general science’. </p>
+				       	    <p class="notViewed wow fadeInUp"  data-wow-delay="0.5s" data-wow-offset="0">What are the implications for how chemistry is taught? One-World Chemistry does NOT argue for the abandonment of teaching individual sciences in favour of an undifferentiated ‘general science’. </p>
 				       	    <br>
 				       	    <p class="notViewed wow fadeInUp"  data-wow-delay="0.5s" data-wow-offset="150"><b>It DOES argue for:</b></p>
 				       	    <div class="intro-content-wrap elemnts-wrap typopraphy-elements wow fadeInLeft animated animated" data-wow-delay="0.5s" data-wow-offset="150" style="visibility: visible;">
@@ -193,5 +194,42 @@
 	    <script type="text/javascript" src="js/jquery.flexisel.min.js"></script>
 	    <script type="text/javascript" src="js/jquery.imedica.min.js"></script>
 	    <script type="text/javascript" src="js/custom-imedicajs.min.js"></script>
+	    <script type="text/javascript">
+		$(document).ready(function(){
+				$(document).on( "keydown", function( event ) {
+					//page down and down arrow action
+					if(event.which == 34 || event.which == 40){
+						var windowscroll = $(window).scrollTop();
+						if(windowscroll >= 0 && windowscroll< 333){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 333}, 1000);
+						}
+						else if(windowscroll >= 333 && windowscroll< 672){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 672}, 1000);
+						}else if(windowscroll>= 672){
+							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
+						}
+					}
+					//page up and up arrow action
+					if(event.which == 33 || event.which == 38){
+						var windowscroll = $(window).scrollTop();
+						if(windowscroll >= 0 && windowscroll<= 333){ //scroll to first part
+							$('html, body').stop().animate({scrollTop: 0}, 1000);
+						}
+						else if(windowscroll > 333 && windowscroll<= 672){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 333}, 1000);
+						}
+						else if(windowscroll> 672){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 672}, 1000);
+						}
+					}
+					// Home key and End key action
+					if(event.which == 36){
+						$('html, body').stop().animate({scrollTop: 0}, 1000);
+					}else if(event.which == 35){
+						$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
+					}
+				});
+			});
+	</script>
 	</body>
 </html>

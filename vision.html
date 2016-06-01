@@ -107,6 +107,7 @@
         		</div>
       		</div>
     	</header>
+    	<div style="clear:both"> </div>
     	<section class="complete-content content-footer-space">	
       		<div class="about-intro-wrap pull-left">
 				<div class="bread-crumb-wrap ibc-wrap-1">
@@ -125,18 +126,18 @@
 				</div>
          		<div class="container">
             		<div class="row">
-        				<div class="col-md-12 col-xs-12 col-sm-12 pull-left wow fadeInLeft animated intro-content-wrap elemnts-wrap typopraphy-elements" data-wow-delay="0.2s" data-wow-offset="130">
+        				<div class="col-md-12 col-xs-12 col-sm-12 pull-left  intro-content-wrap elemnts-wrap typopraphy-elements">
                 			<ul>
-		       	    			<li>• One-World Chemistry is a vision of how chemistry and related molecular sciences can work for the benefit of people, the biosphere and the physical environment of the planet, ensuring that future development is sustainable.</li>
-		       	    			<li>• The figure below summarises the concept of One-World Chemistry and how these its goals link with the approaches and orientations envisaged and the roles that the chemical sciences can play.</li>
+		       	    			<li class="wow fadeInLeft animated"  data-wow-delay="0.2s" data-wow-offset="0">• One-World Chemistry is a vision of how chemistry and related molecular sciences can work for the benefit of people, the biosphere and the physical environment of the planet, ensuring that future development is sustainable.</li>
+		       	    			<li class="wow fadeInLeft animated"  data-wow-delay="0.4s" data-wow-offset="0">• The figure below summarises the concept of One-World Chemistry and how these its goals link with the approaches and orientations envisaged and the roles that the chemical sciences can play.</li>
 		       	    		</ul>
         				</div>              
     					
 			        	<div class="col-md-12 col-xs-12 col-sm-12 pull-left wow fadeInLeft animated intro-content-wrap elemnts-wrap typopraphy-elements" data-wow-delay="0.2s" data-wow-offset="130">
                 			<ul>
-		       	    			<li>The concept of ‘one-world’ chemistry</li>
-		       	    			<li>• The chemical sciences provide understanding of the physical and chemical properties of atoms and molecules and practical methods for creating new molecular structures with useful applications. Chemistry is a ‘platform science’, contributing to fundamental aspects of a range of other sciences and underpinning the dramatic advances seen in recent decades in such fields as biotechnology, energy, the environment, genetics, materials and medicine.</li>
-		       	    			<li>• In fact, the chemical sciences are at the heart of every aspect of productive human activity, for example playing a substantial role in our nutrition, health and wellbeing; in our sources of energy and materials; and in our transport, work and recreation. For more about the contributions of the chemical sciences to development, click<a href="historic.html"> here</a>.</li>
+		       	    			<li class="wow fadeInLeft animated"  data-wow-delay="0.6s" data-wow-offset="20">The concept of ‘one-world’ chemistry</li>
+		       	    			<li class="wow fadeInLeft animated"  data-wow-delay="0.8s" data-wow-offset="40">• The chemical sciences provide understanding of the physical and chemical properties of atoms and molecules and practical methods for creating new molecular structures with useful applications. Chemistry is a ‘platform science’, contributing to fundamental aspects of a range of other sciences and underpinning the dramatic advances seen in recent decades in such fields as biotechnology, energy, the environment, genetics, materials and medicine.</li>
+		       	    			<li class="wow fadeInLeft animated"  data-wow-delay="0.4s" data-wow-offset="130">• In fact, the chemical sciences are at the heart of every aspect of productive human activity, for example playing a substantial role in our nutrition, health and wellbeing; in our sources of energy and materials; and in our transport, work and recreation. For more about the contributions of the chemical sciences to development, click<a href="historic.html"> here</a>.</li>
 		       	    		</ul>
         				</div>
         				
@@ -185,6 +186,37 @@
 	    <script type="text/javascript" src="js/jquery.flexisel.min.js"></script>
 	    <script type="text/javascript" src="js/jquery.imedica.min.js"></script>
 	    <script type="text/javascript" src="js/custom-imedicajs.min.js"></script>
-	    
+	    <script type="text/javascript">
+	    	$(document).ready(function(){
+				$(document).on( "keydown", function( event ) {
+					//page down and down arrow action
+					if(event.which == 34 || event.which == 40){
+						var windowscroll = $(window).scrollTop();
+						if(windowscroll >= 0 && windowscroll< 346){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 346}, 1000);
+						}
+						else if(windowscroll>= 346){
+							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
+						}
+					}
+					//page up and up arrow action
+					if(event.which == 33 || event.which == 38){
+						var windowscroll = $(window).scrollTop();
+						if(windowscroll >= 0 && windowscroll<=346){ //scroll to first part
+							$('html, body').stop().animate({scrollTop: 0}, 1000);
+						}
+						else if(windowscroll> 346){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 346}, 1000);
+						}
+					}
+					// Home key and End key action
+					if(event.which == 36){
+						$('html, body').stop().animate({scrollTop: 0}, 1000);
+					}else if(event.which == 35){
+						$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
+					}
+				});
+			});
+	    </script>
 	</body>
 </html>
