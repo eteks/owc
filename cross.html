@@ -167,7 +167,7 @@
 		                    <p class="text_1"><a href="http://www.nap.edu/catalog/18722/convergence-facilitating-transdisciplinary-integration-of-life-sciences-physical-sciences-engineering" target="_blank">5. Committee on Key Challenge Areas for Convergence and Health. Convergence: Facilitating Transdisciplinary Integration of Life Sciences, Physical Sciences, Engineering, and Beyond. Washington D.C.: National Academies Press 2014, 153pp.</a></p>
 		                    <p class="text_1"><a href="http://www.env-science.ethz.ch/JaegerScheringer_TD.pdf" target="_blank">6. J. Jaeger, M. Scheringer, The Structure of Transdisciplinary Research – Six Case Studies. ETH, Zürich, 1998.</a></p>
 		                    <p class="text_1"><a href="http://web.sust-chem.ethz.ch/scheringer/env-science.html" target="_blank">7. M. Scheringer. What are the Objectives of Environmental Science? A Critical Discussion. ETH, 2013.</a></p>
-		                    <p class="text_1"><a href="http://http://www.eolss.net/outlinecomponents/Unity-Knowledge.aspx" target="_blank">8. G.H. Hadorn, C. Pohl, M. Scheringer. Methodology of transdisciplinary research. In: G.H. Hadorn (Ed.) Unity of knowledge (in transdiciplinary research for sustainability).UNESCO & Encyclopaedia of Life Support Systems, Vol II, 2015, 10pp</a></p>
+		                    <p class="text_1"><a href="http://www.eolss.net/outlinecomponents/Unity-Knowledge.aspx" target="_blank">8. G.H. Hadorn, C. Pohl, M. Scheringer. Methodology of transdisciplinary research. In: G.H. Hadorn (Ed.) Unity of knowledge (in transdiciplinary research for sustainability).UNESCO & Encyclopaedia of Life Support Systems, Vol II, 2015, 10pp</a></p>
 		                    <p class="text_1"><a href="http://jn.nutrition.org/content/137/6/1501S.full" target="_blank">9. K. Takai. Introduction to the Transdisciplinary International Conference on Aromatic Amino Acids and Related Substances: Chemistry, Biology, Medicine, and Applications. J. Nutrition, 2007, 137, 1501S-1503S.</a> </p>
 		                    <p class="text_1"><a href="http://binghamton.edu/tae/smart-energy/" target="_blank">10. Bingham Universty: smart energy.</a></p>
 		                    <p class="text_1"><a href="http://www.microbial-ecology.net/news/research-network-chemistry-meets-microbiology " target="_blank">11. University of Vienna: "Chemistry meets Microbiology".</a></p>
@@ -192,7 +192,7 @@
             		<div class="row">
                     	<!--Foot widget-->
                     	<div class="col-xs-12 col-sm-3 col-md-3 foot-widget">
-                        	<a href="index.html"><div class="col-xs-12 no-pad"><img src="images/imed-logos-sm.png" height="54" width="135" class="logo_chem"/></div></a>
+                        	<a href="index.html"><div class="col-xs-12 no-pad"><img src="images/imed-logos-sm.png" height="54" width="135" class="logo_chem_bottom"/></div></a>
                         </div>
                         <!--Foot widget-->
                         <div class="col-xs-12 col-sm-9 col-md-9 recent-post-foot foot-widget">
@@ -220,6 +220,7 @@
 	    <script type="text/javascript">
 		$(document).ready(function(){
 				$(document).on( "keydown", function( event ) {
+					event.preventDefault();
 					//page down and down arrow action
 					if(event.which == 34 || event.which == 40){
 						var windowscroll = $(window).scrollTop();

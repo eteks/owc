@@ -178,7 +178,7 @@
             		<div class="row">
                     	<!--Foot widget-->
                     	<div class="col-xs-12 col-sm-3 col-md-3 foot-widget">
-                        	<a href="index.html"><div class="col-xs-12 no-pad"><img src="images/imed-logos-sm.png" height="54" width="135" class="logo_chem"/></div></a>
+                        	<a href="index.html"><div class="col-xs-12 no-pad"><img src="images/imed-logos-sm.png" height="54" width="135" class="logo_chem_bottom"/></div></a>
                         </div>
                         <!--Foot widget-->
                         <div class="col-xs-12 col-sm-9 col-md-9 recent-post-foot foot-widget">
@@ -206,6 +206,7 @@
 	    <script type="text/javascript">
 		$(document).ready(function(){
 				$(document).on( "keydown", function( event ) {
+					event.preventDefault();
 					//page down and down arrow action
 					if(event.which == 34 || event.which == 40){
 						var windowscroll = $(window).scrollTop();
