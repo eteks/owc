@@ -44,12 +44,11 @@
 									<ul class="nav navbar-nav navbar-right no-margin">
 			                            <li><a href="index.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-home"> </i>Home</a>
 											<ul class="dropdown-menu">
-			                                    <li><a href="index.html">Home</a></li>
 												<li><a href="sitemap.html">Site map</a></li>
 												
 			                                </ul>
 										</li>
-			                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog"> </i>About OWC<b class="icon-angle-down"> </b></a>
+			                            <li class="dropdown"><a href="vision.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog"> </i>About OWC<b class="icon-angle-down"> </b></a>
 			                                <ul class="dropdown-menu">
 			                                	<li><a href="vision.html">Vision</a></li>
 			                                    <li><a href="need.html">Need for a unified approach</a></li>
@@ -57,21 +56,21 @@
 			                                    <li><a href="about.html">About the originators of One-World Chemistry </a></li>
 			                                </ul>
 			                            </li>
-			                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-file"> </i>Sustainable development<b class="icon-angle-down"> </b></a>
+			                            <li class="dropdown"><a href="century.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-file"> </i>Sustainable development<b class="icon-angle-down"> </b></a>
 			                                <ul class="dropdown-menu">
 			                                	<li><a href="century.html">21<sup>st</sup> Century challenges</a></li>
 					                            <li><a href="sustainable.htm">Sustainable Development</a></li>
 			                                    <li><a href="unsustainable.html">UN Sustainable Development Goals </a></li>
 		                                   </ul>
 			                            </li>
-			                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-camera"> </i>Systems thinking<b class="icon-angle-down"> </b></a>
+			                            <li class="dropdown"><a href="system.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-camera"> </i>Systems thinking<b class="icon-angle-down"> </b></a>
 			                                <ul class="dropdown-menu">
 			                                	<li class="hidden-xs hidden-sm"><a href="system.html">The need for systems thinking in the <br>chemical sciences</a></li>
 			                                	<li class="hidden-md hidden-lg"><a href="system.html">The need for systems thinking in the chemical sciences</a></li>
 					                            <li><a href="cross.html">Cross-disciplinary approaches</a></li>
 			                                </ul>
 			                            </li>
-			                            <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-pencil"> </i>OWC: What the chemical sciences can do<b class="icon-angle-down"> </b></a>
+			                            <li class="dropdown active"><a href="historic.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-pencil"> </i>OWC: What the chemical sciences can do<b class="icon-angle-down"> </b></a>
 			                                <ul class="dropdown-menu">
 			                                	<li><a href="historic.html">Chemistry’s historic contributions</a></li>
 					                            <li><a href="innovation.html">Innovation</a></li>
@@ -80,13 +79,13 @@
 												<li><a href="global.html">A Global action plan </a></li>	
 			                                  </ul>
 			                            </li>
-			                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope"> </i>Information Resources<b class="icon-angle-down"> </b></a>
+			                            <li class="dropdown"><a href="literature.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope"> </i>Information Resources<b class="icon-angle-down"> </b></a>
 			                                <ul class="dropdown-menu">
 			                                    <li><a href="literature.html">Literature Resources</a></li>
 			                                    
 			                                </ul>
 			                            </li>
-			                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope"> </i>Contact us<b class="icon-angle-down"> </b></a>
+			                            <li class="dropdown"><a href="contact.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope"> </i>Contact us<b class="icon-angle-down"> </b></a>
 			                                <ul class="dropdown-menu">
 			                                    <li><a href="contact.html">Contact OWC</a></li>
 			                                    <li><a href="iocd.html">IOCD</a></li>
@@ -125,7 +124,7 @@
 		            <div class="col-md-12 no-pad col-xs-12 col-sm-12 pull-left full-content wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-offset="130">  
 		                <p class="text_1">The elaboration of this Global Action Plan must involve the collective and collaborative effort of the entire chemical science community, including academia, industry, professional associations, academies and policy specialists. We do not seek to pre-empt the outcome of this effort, but offer a process and a framework for the full development of such a plan.</p>
 		            </div>
-		            <div class="col-md-12 no-pad col-xs-12 col-sm-12 pull-left full-content wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-offset="130">   
+		            <div class="col-md-12 no-pad col-xs-12 col-sm-12 pull-left full-content wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-offset="0">   
 		                <p class="text_1">&nbsp;&nbsp;&nbsp;&nbsp;• At the individual and institutional level: chemical scientists individually and in groups should reflect on the objectives of One-World Chemistry and the changes needed in structures and processes, in education, research and practice, to achieve these objectives. They should communicate their ideas through formal and informal publications and through the channels of the professional societies and bodies to which they belong.</p>
 		            </div>
 		            <div class="col-md-12 no-pad col-xs-12 col-sm-12 pull-left full-content wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-offset="130">   
@@ -215,36 +214,40 @@
 	    <script type="text/javascript">
 		$(document).ready(function(){
 				$(document).on( "keydown", function( event ) {
-					event.preventDefault();
+					
 					//page down and down arrow action
 					if(event.which == 34 || event.which == 40){
+						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll< 323){// scroll to second part
-							$('html, body').stop().animate({scrollTop: 323}, 1000);
+						if(windowscroll >= 0 && windowscroll< 347){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 347}, 1000);
 						}
-						else if(windowscroll >= 323 && windowscroll< 805){ //scroll to third part
-							$('html, body').stop().animate({scrollTop: 805}, 1000);
-						}else if(windowscroll>= 805){
+						else if(windowscroll >= 347 && windowscroll< 835){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 835}, 1000);
+						}else if(windowscroll>= 835){
 							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 						}
 					}
 					//page up and up arrow action
 					if(event.which == 33 || event.which == 38){
+						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll<= 323){ //scroll to first part
+						if(windowscroll >= 0 && windowscroll<= 347){ //scroll to first part
 							$('html, body').stop().animate({scrollTop: 0}, 1000);
 						}
-						else if(windowscroll > 323 && windowscroll<= 805){ // scroll to second part
-							$('html, body').stop().animate({scrollTop: 323}, 1000);
+						else if(windowscroll > 347 && windowscroll<= 835){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 347}, 1000);
 						}
-						else if(windowscroll> 805){//scroll to third part
-							$('html, body').stop().animate({scrollTop: 805}, 1000);
+						else if(windowscroll> 835){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 835}, 1000);
 						}
 					}
 					// Home key and End key action
 					if(event.which == 36){
+						event.preventDefault();
 						$('html, body').stop().animate({scrollTop: 0}, 1000);
 					}else if(event.which == 35){
+						event.preventDefault();
 						$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 					}
 				});

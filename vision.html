@@ -46,7 +46,6 @@
 										<ul class="nav navbar-nav navbar-right no-margin">
 				                            <li><a href="index.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-home"></i>Home</a>
 												<ul class="dropdown-menu">
-				                                    <li><a href="index.html">Home</a></li>
 													<li><a href="sitemap.html">Site map</a></li>
 													
 				                                </ul>
@@ -189,31 +188,35 @@
 	    <script type="text/javascript">
 	    	$(document).ready(function(){
 				$(document).on( "keydown", function( event ) {
-					event.preventDefault();
+					
 					//page down and down arrow action
 					if(event.which == 34 || event.which == 40){
+						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll< 346){// scroll to second part
-							$('html, body').stop().animate({scrollTop: 346}, 1000);
+						if(windowscroll >= 0 && windowscroll< 325){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 325}, 1000);
 						}
-						else if(windowscroll>= 346){
+						else if(windowscroll>= 325){
 							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 						}
 					}
 					//page up and up arrow action
 					if(event.which == 33 || event.which == 38){
+						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll<=346){ //scroll to first part
+						if(windowscroll >= 0 && windowscroll<=325){ //scroll to first part
 							$('html, body').stop().animate({scrollTop: 0}, 1000);
 						}
-						else if(windowscroll> 346){//scroll to third part
-							$('html, body').stop().animate({scrollTop: 346}, 1000);
+						else if(windowscroll> 325){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 325}, 1000);
 						}
 					}
 					// Home key and End key action
 					if(event.which == 36){
+						event.preventDefault();
 						$('html, body').stop().animate({scrollTop: 0}, 1000);
 					}else if(event.which == 35){
+						event.preventDefault();
 						$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 					}
 				});

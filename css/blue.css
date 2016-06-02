@@ -4789,8 +4789,10 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus {
+    /*
     background-color: #eee;
-    color: #107fc9
+        color: #107fc9*/
+    
 }
 
 @media (max-width:767px) {
@@ -8439,7 +8441,7 @@ ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover>ul.dropdown-menu {
 .bread-crumb-wrap {
     background: #eaeaea url(../images/strip-shadow.png) no-repeat top center;
     border-bottom: 1px solid #dadada;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     background-size: cover !important
 }
 
@@ -9750,7 +9752,7 @@ a:focus {
     color: #6d6d6d;
     font-size: 16px;
     line-height: 1.4em;
-    padding-top: 25px
+    padding-top: 10px
 }
 
 .mid-widgets-serices.services-page,
@@ -12639,7 +12641,7 @@ input[type="date"] {
 .icon-boxes-1 {
     float: left;
     width: 100%;
-    margin: 65px 0 65px 0
+    margin: 20px 0 20px 0
 }
 
 .icon-box-3 {

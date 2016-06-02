@@ -52,13 +52,12 @@
 										<ul class="nav navbar-nav navbar-right no-margin">
 				                            <li class="dropdown"><a href="index.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-home"></i>Home</a>
 												<ul class="dropdown-menu">
-				                                    <li><a href="index.html">Home</a></li>
 													<li><a href="sitemap.html">Site map</a></li>
 													
 				                                </ul>
 											</li>
 				
-				                            <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog"></i>About OWC<b class="icon-angle-down"></b></a>
+				                            <li class="dropdown active"><a href="vision.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog"></i>About OWC<b class="icon-angle-down"></b></a>
 				                                <ul class="dropdown-menu">
 				                                	<li><a href="vision.html">Vision</a></li>
 				                                    <li><a href="need.html">Need for a unified approach</a></li>
@@ -67,7 +66,7 @@
 				                                </ul>
 				                            </li>
 				                            
-				                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-file"></i>Sustainable development<b class="icon-angle-down"></b></a>
+				                            <li class="dropdown"><a href="century.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-file"></i>Sustainable development<b class="icon-angle-down"></b></a>
 				                                <ul class="dropdown-menu">
 				                                	<li><a href="century.html">21<sup>st</sup> Century challenges</a></li>
 						                            <li><a href="sustainable.htm">Sustainable Development</a></li>
@@ -75,7 +74,7 @@
 			                                   </ul>
 				                            </li>
 				                            
-				                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-camera"></i>Systems thinking<b class="icon-angle-down"></b></a>
+				                            <li class="dropdown"><a href="system.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-camera"></i>Systems thinking<b class="icon-angle-down"></b></a>
 				                                <ul class="dropdown-menu">
 				                                	<li class="hidden-xs hidden-sm"><a href="system.html">The need for systems thinking in the <br>chemical sciences</a></li>
 				                                	<li class="hidden-md hidden-lg"><a href="system.html">The need for systems thinking in the chemical sciences</a></li>
@@ -83,7 +82,7 @@
 				                                </ul>
 				                            </li>
 				                            
-				                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-pencil"></i>OWC: What the chemical sciences can do<b class="icon-angle-down"></b></a>
+				                            <li class="dropdown"><a href="historic.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-pencil"></i>OWC: What the chemical sciences can do<b class="icon-angle-down"></b></a>
 				                                <ul class="dropdown-menu">
 				                                	<li><a href="historic.html">Chemistry’s historic contributions</a></li>
 						                            <li><a href="innovation.html">Innovation</a></li>
@@ -92,13 +91,13 @@
 													<li><a href="global.html">A Global action plan </a></li>	
 				                                  </ul>
 				                            </li>
-				                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope"></i>Information Resources<b class="icon-angle-down"></b></a>
+				                            <li class="dropdown"><a href="literature.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope"></i>Information Resources<b class="icon-angle-down"></b></a>
 				                                <ul class="dropdown-menu">
 				                                    <li><a href="literature.html">Literature Resources</a></li>
 				                                    
 				                                </ul>
 				                            </li>
-				                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope"></i>Contact us<b class="icon-angle-down"></b></a>
+				                            <li class="dropdown"><a href="contact.html" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope"></i>Contact us<b class="icon-angle-down"></b></a>
 				                                <ul class="dropdown-menu">
 				                                    <li><a href="contact.html">Contact OWC</a></li>
 				                                    <li><a href="iocd.html">IOCD</a></li>
@@ -150,7 +149,7 @@
 
             <p class="text_1 padding_20 wow fadeInLeft animated" data-wow-delay="0.7s" data-wow-offset="0">• Agricultural production has been increased dramatically in the last hundred years due to the development of fertilizers, herbicides, pesticides and plant growth regulators as well as to the development of new, higher-yielding plant varieties. These advances ensured that there was sufficient food on the planet to feed the world’s rapidly population during the 20<sup>th</sup> century, but as the population continues to grow, further increases in the volume and efficiency of production will be essential. However, the use of fertilizers, herbicides, pesticides and plant growth regulators can have impacts on plants, insects, birds, animals and people and they must be properly tested, regulated and monitored for all their effects if they are to be used safely and in a sustainable way. </p>
 
-            <p class="text_1 padding_20 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-offset="24">• Many pharmaceuticals that provide immense benefit to human health also find their way into the environment and cause harm to diverse other species. Examples include effects on fish, birds and animals</p>
+            <p class="text_1 padding_20 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-offset="97">• Many pharmaceuticals that provide immense benefit to human health also find their way into the environment and cause harm to diverse other species. Examples include effects on fish, birds and animals</p>
 
              <p class="text_1 padding_20 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-offset="97">• The development of antibiotic resistance by micro-organisms presents one of the greatest challenges to global health in the 21<sup>st</sup> century. Anti-microbial resistance (AMR) in bacteria, fungi and parasites results from natural evolutionary changes caused by their exposure to antibiotic dugs – and this is related to a complex set of factors that include the use of drugs in human health and animal husbandry and their leakage into the environment:</p>       
 
@@ -221,36 +220,40 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 				$(document).on( "keydown", function( event ) {
-					event.preventDefault();
+					
 					//page down and down arrow action
 					if(event.which == 34 || event.which == 40){
+						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll< 383){// scroll to second part
-							$('html, body').stop().animate({scrollTop: 383}, 1000);
+						if(windowscroll >= 0 && windowscroll< 305){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 305}, 1000);
 						}
-						else if(windowscroll >= 383 && windowscroll< 872){ //scroll to third part
-							$('html, body').stop().animate({scrollTop: 872}, 1000);
-						}else if(windowscroll>= 872){
+						else if(windowscroll >= 305 && windowscroll< 708){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 708}, 1000);
+						}else if(windowscroll>= 708){
 							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 						}
 					}
 					//page up and up arrow action
 					if(event.which == 33 || event.which == 38){
+						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll<= 383){ //scroll to first part
+						if(windowscroll >= 0 && windowscroll<= 305){ //scroll to first part
 							$('html, body').stop().animate({scrollTop: 0}, 1000);
 						}
-						else if(windowscroll > 383 && windowscroll<= 872){ // scroll to second part
-							$('html, body').stop().animate({scrollTop: 383}, 1000);
+						else if(windowscroll > 305 && windowscroll<= 708){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 305}, 1000);
 						}
-						else if(windowscroll> 872){//scroll to third part
-							$('html, body').stop().animate({scrollTop: 872}, 1000);
+						else if(windowscroll> 708){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 708}, 1000);
 						}
 					}
 					// Home key and End key action
 					if(event.which == 36){
+						event.preventDefault();
 						$('html, body').stop().animate({scrollTop: 0}, 1000);
 					}else if(event.which == 35){
+						event.preventDefault();
 						$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 					}
 				});
