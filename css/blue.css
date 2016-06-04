@@ -3638,7 +3638,7 @@ input[type="button"].btn-block {
     top: 100%;
     left: 0;
     z-index: 1000;
-    display: none;
+    /*display: none;*/
     float: left;
     min-width: 160px;
     padding: 5px 0;
@@ -7112,7 +7112,7 @@ p {
 .icon-home,
 .icon-camera {
     font-size: 14px;
-    margin-right: 15px;
+    margin-right: 5px;
     position: relative;
     top: 3px;
     float: left
@@ -7406,9 +7406,15 @@ ul.tert-nav li.searchit {
 
 #bs-example-navbar-collapse-1 ul li:hover ul {
     top: 100%;
-    display:block;
+    /*display:block;*/
     opacity: 1 !important;
+    transform: scaleY(1);
     margin: 0px 0 0 0 !important
+}
+#bs-example-navbar-collapse-1 ul ul {
+   	transform: scaleY(0);
+	transform-origin: 0 0 0;
+    transition: all 0.5s ease 0s;
 }
 
 .dropdown-menu {
@@ -7436,7 +7442,7 @@ ul.tert-nav li.searchit {
     -ms-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    display: none;
+    /*display: none;*/
     z-index: 9999;
 }
 
@@ -12567,7 +12573,6 @@ input[type="date"] {
     .navbar-collapse.cart-drop {
         display: none !important
     }
-    .navbar-nav li a i,
     .navbar-nav .dropdown b {
         display: none !important
     }
@@ -14739,7 +14744,7 @@ input[type="date"] {
     .navbar-collapse.cart-drop {
         display: none !important
     }
-    .navbar-nav li a i,
+
     .navbar-nav .dropdown b {
         display: none
     }
@@ -14769,8 +14774,8 @@ input[type="date"] {
         font-weight: normal
     }
     .navbar-nav>li>a {
-        padding-top: 20px;
-        padding-bottom: 20px
+        padding: 20px 0px;
+        margin-right: 10px;
     }
     .navbar-default .navbar-nav>.active>a,
     .navbar-default .navbar-nav>.active>a:hover,
