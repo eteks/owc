@@ -7456,7 +7456,7 @@ ul.tert-nav li.searchit {
 
 .dropdown-menu>li>a {
     display: block;
-    padding: 8px 20px;
+    padding: 8px 10px;
     clear: both;
     font-weight: 400;
     line-height: 1.428571429;
@@ -9720,7 +9720,7 @@ a:focus {
 }
 
 .content-tabs-wrap {
-    padding: 0 30px
+    padding: 0 0px
 }
 
 .services-content-wrap {
@@ -19525,5 +19525,8 @@ figcaption{color:#0BA3DE;
     padding: 10px 0px;
     float: left;
     font-family: verdana, Tahoma;
+}
+.dropdown-toggle {
+	padding:5px 0px !important;
 }
 
