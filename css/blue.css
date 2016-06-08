@@ -7,6 +7,8 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
+body{ font-family:verdana, Tahoma !important;}
+
 body {
     margin: 0
 }
@@ -311,7 +313,7 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-size: 14px;
     line-height: 1.42857143;
     color: #6d6d6d;
@@ -6618,7 +6620,7 @@ button.close {
     height: 20px;
     margin-top: -10px;
     margin-left: -10px;
-    font-family: serif
+    /*font-family: serif*/
 }
 
 .carousel-control .icon-prev:before {
@@ -6920,7 +6922,7 @@ body {
     margin: 0px;
     padding: 0px;
     background: #fff;
-    font-family: 'Noto Sans', sans-serif;
+    /*font-family: 'Noto Sans', sans-serif;*/
     font-size: 16px;
     line-height: 1.62857143
 }
@@ -7535,7 +7537,7 @@ ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover>ul.dropdown-menu {
     font-weight: 600;
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
     font-size: 13px;
-    font-family: 'Noto Sans', sans-serif
+    /*font-family: 'Noto Sans', sans-serif*/
 }
 
 .icon-box-2 a:hover,
@@ -7570,12 +7572,12 @@ ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover>ul.dropdown-menu {
     font-weight: 600;
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
     font-size: 13px;
-    font-family: 'Noto Sans', sans-serif;
+    /*font-family: 'Noto Sans', sans-serif;*/
     width: 100%
 }
 
 .icon-box-3 nav a span {
-    font-family: 'Noto Sans', sans-serif
+    /*font-family: 'Noto Sans', sans-serif*/
 }
 
 .icon-box-4 a:hover,
@@ -7593,7 +7595,7 @@ ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover>ul.dropdown-menu {
     font-weight: 600;
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
     font-size: 13px;
-    font-family: 'Noto Sans', sans-serif
+    /*font-family: 'Noto Sans', sans-serif*/
 }
 
 .icon-box-1 a:hover,
@@ -7674,7 +7676,7 @@ ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover>ul.dropdown-menu {
     -moz-transition: -moz-transform .3s;
     transition: transform 0.3s;
     color: #fff;
-    font-family: 'Noto Sans', sans-serif
+    /*font-family: 'Noto Sans', sans-serif*/
 }
 
 .cl-effect-10 a::before {
@@ -7716,7 +7718,7 @@ ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover>ul.dropdown-menu {
     -webkit-transform: translateX(100%);
     -moz-transform: translateX(100%);
     transform: translateX(100%);
-    font-family: 'Noto Sans', sans-serif
+    /*font-family: 'Noto Sans', sans-serif*/
 }
 
 .cl-effect-10 a:hover::before,
@@ -7724,7 +7726,7 @@ ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover>ul.dropdown-menu {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     transform: translateX(0);
-    font-family: 'Noto Sans', sans-serif
+    /*font-family: 'Noto Sans', sans-serif*/
 }
 
 .color-4 {
@@ -8506,7 +8508,7 @@ label.error {
 .iconbox-readmore a {
     font-size: 13px;
     color: #fff;
-    font-family: 'Noto Sans', sans-serif
+    /*font-family: 'Noto Sans', sans-serif*/
 }
 
 .iconbox-readmore:hover a {
@@ -9497,7 +9499,6 @@ a:focus {
 }
 
 .content-tabs {
-    background: #fff;
     border: 1px solid #e6e7e8;
     margin: 0 0 20px 0;
     float: left
@@ -12309,7 +12310,7 @@ div.stats-desc>div.counter_suffix {
 }
 
 @font-face {
-    font-family: 'icomoon';
+    /* font-family: 'icomoon'; */
     src: url('../fonts/icomoon.eot?d531m9');
     src: url('../fonts/icomoon.eot?#iefixd531m9') format('embedded-opentype'), url('../fonts/icomoon.woff?d531m9') format('woff'), url('../fonts/icomoon.ttf?d531m9') format('truetype'), url('../fonts/icomoon.svg?d531m9#icomoon') format('svg');
     font-weight: normal;
@@ -12811,7 +12812,7 @@ input[type="date"] {
     text-align: center;
     color: #464a4c;
     font-size: 20px;
-    font-family: 'Noto Sans', sans-serif;
+    /*font-family: 'Noto Sans', sans-serif;*/
     letter-spacing: 0.5px
 }
 
@@ -12819,7 +12820,7 @@ input[type="date"] {
     font-size: 13px;
     color: #6e6e6e;
     line-height: 1.4em;
-    font-family: 'Noto Sans', sans-serif;
+    /*font-family: 'Noto Sans', sans-serif;*/
     padding: 0px 15px 10px 15px;
     text-align: center
 }
@@ -12833,7 +12834,7 @@ input[type="date"] {
     font-size: 13px;
     color: #6e6e6e;
     line-height: 18px;
-    font-family: 'Noto Sans', sans-serif;
+    /*font-family: 'Noto Sans', sans-serif;*/
     float: left;
     width: 80%;
     border-bottom: 1px solid #dadada;
@@ -13008,7 +13009,7 @@ input[type="date"] {
     width: 83%;
     margin: 0px 0 0px 13.3%;
     height: 100%;
-    font-family: 'Noto Sans', sans-serif;
+    /*font-family: 'Noto Sans', sans-serif;*/
     -webkit-transition: .5s;
     -moz-transition: .5s;
     -ms-transition: .5s;
@@ -13021,7 +13022,7 @@ input[type="date"] {
     font-size: 14px;
     color: #6d6d6d;
     line-height: 1.4em;
-    font-family: 'Noto Sans', sans-serif
+    /*font-family: 'Noto Sans', sans-serif*/
 }
 
 .icon-list-connector {
@@ -13059,7 +13060,7 @@ input[type="date"] {
     font-size: 21px;
     color: #107fc9;
     line-height: 1.3em;
-    font-family: 'Noto Sans', sans-serif;
+    /*font-family: 'Noto Sans', sans-serif;*/
     padding-bottom: 6px
 }
 
@@ -13074,16 +13075,6 @@ input[type="date"] {
     /*margin-bottom: 45px;*/
     position: relative;
     z-index: 9999999
-}
-
-.purchase-strip-text {
-    line-height: 1.4em;
-    font-size: 16px;
-    color: #6D6D6D;
-    padding: 10px 0px;
-    text-align: justify;
-    float: left;
-    font-family: noto sans;
 }
 
 .purchase-strip-blue .color-4 {
@@ -14224,14 +14215,13 @@ input[type="date"] {
 
 .foot-widget-title {
     font-size: 15px;
-    font-weight: 600;
     color: #e6e7e8;
     line-height: 2.3em;
     padding-bottom: 35px;
-    text-transform: uppercase;
     float: left;
     width: 100%;
     text-align: center;
+    padding-right: 220px;
 }
 
 .foot-widget .foot-widget-title:last-child {
@@ -15530,7 +15520,7 @@ input[type="date"] {
         width: 75%;
         margin: 0px 0 0px 25%;
         height: 100%;
-        font-family: 'Roboto', sans-serif;
+        /*font-family: 'Roboto', sans-serif;*/
         transition: .5s;
         padding: 3px 15px
     }
@@ -15760,7 +15750,7 @@ input[type="date"] {
         font-size: 13px;
         color: #6e6e6e;
         line-height: 18px;
-        font-family: 'Open Sans', sans-serif;
+       /*font-family: 'Open Sans', sans-serif;*/
         float: left;
         width: 92%;
         border-bottom: 1px solid #dadada;
@@ -16460,7 +16450,7 @@ input[type="date"] {
         width: 75%;
         margin: 0px 0 0px 25%;
         height: 100%;
-        font-family: 'Roboto', sans-serif;
+        /*font-family: 'Roboto', sans-serif;*/
         transition: .5s;
         padding: 3px 15px
     }
@@ -16696,7 +16686,7 @@ input[type="date"] {
         width: 75%;
         margin: 0px 0 0px 25%;
         height: 100%;
-        font-family: 'Roboto', sans-serif;
+        /*font-family: 'Roboto', sans-serif;*/
         transition: .5s;
         padding: 3px 15px
     }
@@ -19462,3 +19452,78 @@ figcaption{color:#0BA3DE;
 .systems .paraa p{
 	text-align:justify;
 }
+
+
+/* css as on 8th June */
+
+.foot-site{ 
+	padding: 5px;
+	font-weight: 100 !important;
+ }
+
+.content-tabs {
+    background: #e6e7e8;
+    /*font-family: sans-serif;*/
+    line-height: 1em;
+  }  
+.tab-content {
+	background: #107fc9;
+	color: #ffffff;
+	padding: 20px 40px;
+}  
+
+.tab-content p {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 1.2em;
+    text-align: justify;
+   }
+   
+.tab-content a {
+	color: #ffffff; 
+	text-decoration: underline;
+ } 
+ 
+.tab-content a:hover {  text-decoration: none; }
+	 
+#tab-settings ul a:hover{ text-decoration: none;} 
+
+.tab-pane-list li {
+	list-style-type: disc !important;
+	font-size: 13px;
+}  
+
+#tab-home ul{ padding: 10px;}
+     
+#tab-home ol {
+    font-size: 13px;
+}
+
+#tab-profile ul {  
+	font-size: 13px;
+	padding-left: 35px;
+ }
+
+#tab-settings ol li{ 
+	color: #ffffff;
+	font-size: 13px;
+	list-style-type: decimal !important;
+   }
+
+
+.navbar-default .navbar-nav > li > a {font-size:13px;}
+
+.navbar-nav > li > a {padding:5px 0; text-transform:uppercase;
+}
+
+.logo_subtitle{ margin-bottom: 0px;}
+
+.purchase-strip-text {
+    line-height: 1.2em;
+    font-size: 13px;
+    color: #6D6D6D;
+    padding: 10px 0px;
+    float: left;
+    font-family: verdana, Tahoma;
+}
+
