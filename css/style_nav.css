@@ -1,0 +1,399 @@
+/* cbFlyNav Req Styles */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body {
+  /* These styles don't have to be on body,
+     they could be on an element that wraps around
+     the left-flyout-nav and the content. 
+     This is to prevent a problem on Chrome that
+     leaves the width of the container with the 
+     added width of the flyout nav even after it's been
+     hidden. */
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.layout-left-flyout {
+  height: 100%;
+  position: fixed;
+  visibility: hidden;
+  z-index: 0;
+  right:0px;
+  transition: visibility 0 linear .2s;
+  background: #107fc9;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+   width: 30%;
+}
+
+.layout-left-flyout.isCbFlyNavActive {
+  visibility: visible;
+  transition: z-index 0 linear .2s;
+  z-index: 9998;
+}
+
+.cbFlyNav-wrap {
+  display: block;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+   border-top: 1px solid #107fc9;
+   top :36px;
+}
+.cbFlyNav-wrap > nav {
+  transform: translateY(0);
+  transition: transform 0 ease-in-out;
+  /*    height: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;*/
+}
+
+.nav-collapse {
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+}
+
+.layout-right-content {
+  transition: transform .2s ease-in-out;
+  transform: translate3d(0, 0, 0);
+  -webkit-perspective: 1000;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  z-index: 1;
+  /* NOTE! Put container bg here so you don't
+     get any clipping when the content is 
+     transitioning. Any tips on alternate 
+     solutions are welcome.
+  */
+  background: #fff;
+  background: #fff;
+}
+
+.layout-right-content.isCbFlyNavActive {
+  transform: translate3d(-31%, 0px, 0px);
+  min-width: 320px;
+}
+
+.icon-cbmore {
+  content: "";
+  float: right;
+  margin-top: 4.5px;
+  padding: 4.5px;
+  box-shadow: 1px -1px 0 0px #FFF inset;
+  -webkit-transform: rotate(225deg);
+}
+
+.nav-flyout-navmask, .nav-flyout-contentmask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-flyout-contentmask {
+  z-index: 1;
+}
+
+.nav-flyout-navmask {
+  right: 269px;
+  z-index: 1;
+}
+
+/* Menu Toggle */
+.btn-navbar {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  padding: 4px 0;
+  display: block;
+  z-index: 1;
+}
+
+.btn-navbar-navtoggle {
+  right: 10px;
+  top: 25px;
+}
+
+.btn-navbar .icon-bar {
+  display: block;
+  width: 28px;
+  height: 4px;
+  background-color: #4d4d4d;
+  margin: 7px auto 0 auto;
+}
+
+.btn-navbar .icon-bar + .icon-bar {
+  margin-top: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-navbar {
+    display: block;
+  }
+}
+/* Navbar Styles */
+.navbar {
+  height: 40px;
+  margin: 0;
+  padding: 5px 0;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  /*background: #000;*/
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 0 10px;
+  font-family: "Lato", sans-serif;
+  /*box-shadow: 0 1px 1px 0px #dddddd;*/
+}
+.navbar .nav-collapse {
+    display: none;
+}
+/* Mobile First Nav */
+.the-nav ul.nav-flyout {
+  display: block;
+  margin-bottom: 15px;
+  float: none;
+  height: 100%;
+}
+.the-nav ul.nav-flyout > li {
+  float: none;
+  display: block;
+  width: 100%;
+}
+.the-nav ul.nav-flyout li a {
+  color: #000;
+  display: block;
+  text-decoration: none;
+  padding: 11px 14px;
+  margin-right: 0;
+}
+.the-nav ul.nav-flyout li a:hover {
+  background: #fff none repeat scroll 0 0;
+  color: #000 !important;
+}
+.the-nav ul.nav-flyout .dropdown1 {
+  position: static;
+}
+.subnav {
+  padding: 41px 0 0 !important;
+}
+.the-nav ul.nav-flyout .dropdown1 .subnav {
+  float: none;
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  left: auto;
+  width: 0;
+  min-width: 0;
+  margin: 0;
+  list-style: none;
+  z-index: 1000;
+  background: #fff;
+  transition: width .2s ease-in-out;
+}
+.the-nav ul.nav-flyout .dropdown1 .subnav > li {
+  width: 100%;
+}
+.the-nav ul.nav-flyout .dropdown1 .subnav.is-subnav-visible {
+  width: 70%;
+}
+.the-nav.is-inactive ul.nav-flyout > li > a {
+  opacity: .2;
+}
+.the-nav.is-inactive ul.nav-flyout > li.is-active > a {
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+  opacity: 1;
+}
+ .the-nav ul.nav-flyout li ul.subnav li a:hover {
+    background: #107fc9 !important;
+    color: #fff !important;
+  }
+/* Large Screen Styles*/
+@media screen and (min-width: 768px) {
+  .the-nav {
+    display: block;
+  }
+
+  .the-nav .nav {
+    display: block;
+  }
+
+  .the-nav .nav-pill:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .the-nav > .nav {
+    margin: 0;
+    line-height: normal;
+  }
+
+  .the-nav > .nav > li {
+    display: inline-block;
+    margin-bottom: 0;
+    position: relative;
+  }
+
+  .the-nav > .nav > li .caret {
+    margin-top: 8px;
+    margin-left: 2px;
+    border-top-color: #A7A7A7;
+    border-bottom-color: #A7A7A7;
+  }
+
+  .the-nav > .nav > li a {
+    display: block;
+    padding: 10px 10px 10px;
+    color: #A7A7A7;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  /*.the-nav > .nav > li:nth-of-type(1) > a {
+    padding-left: 0;
+  }*/
+
+  /*.the-nav > .nav > li:last-of-type > a {
+    padding-right: 0;
+  }*/
+
+  /* Active State */
+  .the-nav > .nav > li:hover > a {
+    color: #303030;
+  }
+
+  .the-nav > .nav > li:hover .subnav {
+    display: block;
+  }
+
+  .the-nav > .nav > li:hover .caret {
+    border-top-color: #303030;
+    border-bottom-color: #303030;
+  }
+
+  /* Subnav */
+  .nav > li > .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 20;
+    margin: 0;
+    padding: 0;
+    min-width: 160px;
+    background: #F7F7F7;
+    box-shadow: 0 1px 1px 0px #DDDDDD;
+  }
+
+  .nav > li > .subnav > li {
+    margin-bottom: 0;
+  }
+
+  .nav > li > .subnav > li a {
+    color: #000;
+    transition: all .2s;
+  }
+}
+/* General Mobile First Styles */
+.hidden-sm {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .visible-sm {
+    display: none;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+/* Resets and clean ups and extras */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*body {
+  background: #107fc9;
+  z-index: -1;
+}*/
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  margin: 0;
+}
+
+.pull-left {
+  float: left;
+  /*width: 100%;*/
+}
+
+.pull-right {
+  float: right;
+}
+
+.dropdown1 .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid gray;
+  content: "";
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+a.gh-btn {
+  display: inline-block;
+  width: 250px;
+  background: white;
+  color: #1D1F21;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 25px;
+  transition: all .2s ease-in-out;
+}
+a.gh-btn:hover {
+  background: #e6e6e6;
+}
+
+.align-center {
+  text-align: center;
+}
+.layout-right-content {
+  color: #ffdede;
+}
+.is_active_list {
+  background-color: #107fc9;
+}
+.is_active_list a{
+  color: #fff !important;
+}
+.the-header {
+  padding: 10px 0px;
+}
