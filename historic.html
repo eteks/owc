@@ -222,19 +222,19 @@
 					if(event.which == 34 || event.which == 40){
 						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll< 380){// scroll to second part
-							$('html, body').stop().animate({scrollTop: 380}, 1000);
+						if(windowscroll >= 0 && windowscroll< 641){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 641}, 1000);
 						}
-						else if(windowscroll >= 380 && windowscroll< 685){ //scroll to third part
-							$('html, body').stop().animate({scrollTop: 685}, 1000);
+						else if(windowscroll >= 641 && windowscroll< 823){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 823}, 1000);
 						}
-						else if(windowscroll >= 685 && windowscroll< 1191){ //scroll to third part
-							$('html, body').stop().animate({scrollTop: 1191}, 1000);
+						else if(windowscroll >= 823 && windowscroll< 1478){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 1478}, 1000);
 						}
-						else if(windowscroll >= 1191 && windowscroll< 1692){ //scroll to third part
-							$('html, body').stop().animate({scrollTop: 1692}, 1000);
+						else if(windowscroll >= 1478 && windowscroll< 2090){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 2090}, 1000);
 						}
-						else if(windowscroll>= 1692){
+						else if(windowscroll>= 2090){
 							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 						}
 					}
@@ -242,20 +242,20 @@
 					if(event.which == 33 || event.which == 38){
 						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll<= 380){ //scroll to first part
+						if(windowscroll >= 0 && windowscroll<= 641){ //scroll to first part
 							$('html, body').stop().animate({scrollTop: 0}, 1000);
 						}
-						else if(windowscroll > 380 && windowscroll<= 685){ // scroll to second part
-							$('html, body').stop().animate({scrollTop: 380}, 1000);
+						else if(windowscroll > 641 && windowscroll<= 823){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 641}, 1000);
 						}
-						else if(windowscroll > 685 && windowscroll<= 1191){ // scroll to second part
-							$('html, body').stop().animate({scrollTop: 685}, 1000);
+						else if(windowscroll > 823 && windowscroll<= 1478){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 823}, 1000);
 						}
-						else if(windowscroll > 1191 && windowscroll<= 1692){ // scroll to second part
-							$('html, body').stop().animate({scrollTop: 1191}, 1000);
+						else if(windowscroll > 1478 && windowscroll<= 2090){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 1478}, 1000);
 						}
-						else if(windowscroll> 1692){//scroll to third part
-							$('html, body').stop().animate({scrollTop: 1692}, 1000);
+						else if(windowscroll> 2090	){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 2090}, 1000);
 						}
 					}
 					// Home key and End key action

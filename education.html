@@ -199,12 +199,12 @@
 					if(event.which == 34 || event.which == 40){
 						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll< 361){// scroll to second part
-							$('html, body').stop().animate({scrollTop: 361}, 1000);
+						if(windowscroll >= 0 && windowscroll< 557){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 557}, 1000);
 						}
-						else if(windowscroll >= 361 && windowscroll< 853){ //scroll to third part
-							$('html, body').stop().animate({scrollTop: 853}, 1000);
-						}else if(windowscroll>= 853){
+						else if(windowscroll >= 557 && windowscroll< 1096){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 1096}, 1000);
+						}else if(windowscroll>= 1096){
 							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 						}
 					}
@@ -212,14 +212,14 @@
 					if(event.which == 33 || event.which == 38){
 						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll<= 361){ //scroll to first part
+						if(windowscroll >= 0 && windowscroll<= 557){ //scroll to first part
 							$('html, body').stop().animate({scrollTop: 0}, 1000);
 						}
-						else if(windowscroll > 361 && windowscroll<= 853){ // scroll to second part
-							$('html, body').stop().animate({scrollTop: 361}, 1000);
+						else if(windowscroll > 557 && windowscroll<= 1096){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 557}, 1000);
 						}
-						else if(windowscroll> 853){//scroll to third part
-							$('html, body').stop().animate({scrollTop: 853}, 1000);
+						else if(windowscroll> 1096){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 1096}, 1000);
 						}
 					}
 					// Home key and End key action

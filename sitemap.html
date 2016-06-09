@@ -339,16 +339,10 @@
 	    		$(document).on( "keydown", function( event ) {
 	    			event.preventDefault();
 		    		if(event.which == 34 || event.which == 40){
-						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll<= 38){// scroll to second part
-							$('html, body').stop().animate({scrollTop: 38}, 1000);
-						}
+						$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 					}
 					if(event.which == 33 || event.which == 38){
-						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll<= 38){ //scroll to first part
-							$('html, body').stop().animate({scrollTop: 0}, 1000);
-						}
+						$('html, body').stop().animate({scrollTop: 0}, 1000);
 					}
 				});
 	    	});

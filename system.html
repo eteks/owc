@@ -187,40 +187,16 @@
 	    <script type="text/javascript" src="js/action.js"></script>
 	    <script type="text/javascript">
 		$(document).ready(function(){
-				$(document).on( "keydown", function( event ) {
-
-					//page down and down arrow action
-					if(event.which == 34 || event.which == 40){
-						event.preventDefault();
-						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll< 352){// scroll to second part
-							$('html, body').stop().animate({scrollTop: 352}, 1000);
-						}
-						else if(windowscroll>= 352){
-							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
-						}
-					}
-					//page up and up arrow action
-					if(event.which == 33 || event.which == 38){
-						event.preventDefault();
-						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll<= 352){ //scroll to first part
-							$('html, body').stop().animate({scrollTop: 0}, 1000);
-						}
-						else if(windowscroll> 352){//scroll to third part
-							$('html, body').stop().animate({scrollTop: 352}, 1000);
-						}
-					}
-					// Home key and End key action
-					if(event.which == 36){
-						event.preventDefault();
-						$('html, body').stop().animate({scrollTop: 0}, 1000);
-					}else if(event.which == 35){
-						event.preventDefault();
+	    		$(document).on( "keydown", function( event ) {
+	    			event.preventDefault();
+		    		if(event.which == 34 || event.which == 40){
 						$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 					}
+					if(event.which == 33 || event.which == 38){
+						$('html, body').stop().animate({scrollTop: 0}, 1000);
+					}
 				});
-			});
+	    	});
 	</script>
 	</div>
 	</body>
