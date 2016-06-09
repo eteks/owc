@@ -32,11 +32,6 @@
 			        	<a href="index.html"><img src="images/imed-logos-sm.png" height="61" width="117" class="logo_chem"/></a>
 			        	<p class="logo_subtitle hidden-sm hidden-xs">Systems thinking to shape the chemical sciences for sustainable development</p>
 			        	<p class="logo_subtitle_under hidden-sm hidden-xs">An initiative of the International Organization for Chemical Sciences in Development</p>
-			        	<div class="navbar-header hidden-md hidden-lg">
-							<button type="button" class="navbar-toggle icon-list-ul" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			                	<span class="sr-only">Toggle navigation</span>
-			              	</button>
-						</div>
 				    </div>
 			        <div class="navbar">
 				     <!-- Trigger -->
@@ -263,26 +258,26 @@
 					//page down and down arrow action
 					if(event.which == 34 || event.which == 40){
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll< 273){// scroll to second part
-							$('html, body').stop().animate({scrollTop: 273}, 1000);
+						if(windowscroll >= 0 && windowscroll< 5){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 5}, 1000);
 						}
-						else if(windowscroll >= 273 && windowscroll< 831){ //scroll to third part
-							$('html, body').stop().animate({scrollTop: 831}, 1000);
-						}else if(windowscroll>= 831){
+						else if(windowscroll >= 5 && windowscroll< 542){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 542}, 1000);
+						}else if(windowscroll>= 542){
 							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 						}
 					}
 					//page up and up arrow action
 					if(event.which == 33 || event.which == 38){
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll<= 273){ //scroll to first part
+						if(windowscroll >= 0 && windowscroll<= 5){ //scroll to first part
 							$('html, body').stop().animate({scrollTop: 0}, 1000);
 						}
-						else if(windowscroll > 273 && windowscroll<= 831){ // scroll to second part
-							$('html, body').stop().animate({scrollTop: 273}, 1000);
+						else if(windowscroll > 5 && windowscroll<= 542){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 5}, 1000);
 						}
-						else if(windowscroll> 831){//scroll to third part
-							$('html, body').stop().animate({scrollTop: 831}, 1000);
+						else if(windowscroll> 542){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 542}, 1000);
 						}
 					}
 					// Home key and End key action

@@ -14221,9 +14221,8 @@ input[type="date"] {
     float: left;
     width: 100%;
     text-align: center;
-    padding-right: 220px;
+    padding-right: 180px;
 }
-
 .foot-widget .foot-widget-title:last-child {
     padding-bottom: 10px
 }
@@ -19528,5 +19527,17 @@ figcaption{color:#0BA3DE;
 }
 .dropdown-toggle {
 	padding:5px 0px !important;
+}
+@media (max-width: 768px) {
+    .foot-widget-title {
+        font-size: 15px;
+        color: #e6e7e8;
+        line-height: 2.3em;
+        padding-bottom: 35px;
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+    }
 }
 
