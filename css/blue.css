@@ -6949,6 +6949,7 @@ p {
     font-size: 16px;
     line-height:1.4em;
     text-intent: 20px;
+    
 }
 
 .no-pad {
@@ -19541,3 +19542,13 @@ figcaption{color:#0BA3DE;
     }
 }
 
+.vision-text { text-align: center !important; }
+
+.text-references{ color: #6d6d6d !important;  }
+
+@media (max-width: 768px) {
+	.purchase-strip-text {
+	    padding: 10px 20px;
+
+	}
+}
