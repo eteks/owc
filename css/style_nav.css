@@ -178,7 +178,8 @@ body {
   margin-bottom: 10px;
   width: 100%;
   padding: 0 10px;
-  font-family: "Lato", sans-serif;
+  border: none;
+  /*font-family: "Lato", sans-serif;*/
   /*box-shadow: 0 1px 1px 0px #dddddd;*/
 }
 .navbar .nav-collapse {
@@ -449,3 +450,69 @@ a.gh-btn:hover {
 .the-header {
   padding: 10px 0px;
 }
+
+
+
+
+
+header {
+    height: 100px;
+    position: relative;
+    -moz-animation-name: dropHeader;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 1.0s;
+
+    -webkit-animation-name: dropHeader;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 1.0s;
+
+    animation-name: dropHeader;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1.0s;
+    box-shadow: none;
+    border: medium none !important;
+}
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header ul li{
+    display: inline-block;
+    margin-right: 20px
+}
+@-moz-keyframes dropHeader {
+    0% {
+        -moz-transform: translateY(-80px);
+    }
+    100% {
+        -moz-transform: translateY(0);
+    }
+}
+@-webkit-keyframes dropHeader {
+    0% {
+        -webkit-transform: translateY(-80px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+@keyframes dropHeader {
+    0% {
+        transform: translateY(-80px);
+    }
+ 
+
+   100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
