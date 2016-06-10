@@ -112,8 +112,8 @@
     					<div class="container">
     						<!--Title / Beadcrumb-->
      						<div class="inner-page-title-wrap col-xs-12 col-md-12 col-sm-12">
-        						<div class="bread-heading hidden-sm hidden-xs"><h1>Information Resources </h1></div>
-        						<div class="bread-heading hidden-md hidden-lg"><h1>Information Resources</h1></div>
+        						<div class="bread-heading hidden-sm hidden-xs"><h1>Literature resources</h1></div>
+        						<div id="min_width_resource" class="bread-heading hidden-md hidden-lg"><h1>Literature resources</h1></div>
             					<div class="bread-crumb pull-right hidden-sm hidden-xs">
             						<ul>
             							<li><a>Information resources</a></li>
@@ -258,26 +258,26 @@
 					//page down and down arrow action
 					if(event.which == 34 || event.which == 40){
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll< 273){// scroll to second part
-							$('html, body').stop().animate({scrollTop: 273}, 1000);
+						if(windowscroll >= 0 && windowscroll< 5){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 5}, 1000);
 						}
-						else if(windowscroll >= 273 && windowscroll< 831){ //scroll to third part
-							$('html, body').stop().animate({scrollTop: 831}, 1000);
-						}else if(windowscroll>= 831){
+						else if(windowscroll >= 5 && windowscroll< 542){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 542}, 1000);
+						}else if(windowscroll>= 542){
 							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 						}
 					}
 					//page up and up arrow action
 					if(event.which == 33 || event.which == 38){
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll<= 273){ //scroll to first part
+						if(windowscroll >= 0 && windowscroll<= 5){ //scroll to first part
 							$('html, body').stop().animate({scrollTop: 0}, 1000);
 						}
-						else if(windowscroll > 273 && windowscroll<= 831){ // scroll to second part
-							$('html, body').stop().animate({scrollTop: 273}, 1000);
+						else if(windowscroll > 5 && windowscroll<= 542){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 5}, 1000);
 						}
-						else if(windowscroll> 831){//scroll to third part
-							$('html, body').stop().animate({scrollTop: 831}, 1000);
+						else if(windowscroll> 542){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 542}, 1000);
 						}
 					}
 					// Home key and End key action

@@ -19574,3 +19574,11 @@ figcaption{color:#0BA3DE;
     font-size: 19px;
     font-weight: normal;
 }
+@media (max-width: 350px) {
+    #min_width_resource {
+        text-align: center;
+    }
+}
+#button_padding_remove{
+    padding: 0 10px;
+}
