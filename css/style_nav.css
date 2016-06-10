@@ -199,7 +199,7 @@ body {
   width: 100%;
 }
 .the-nav ul.nav-flyout li a {
-  color: #000;
+  color: #fff;
   display: block;
   text-decoration: none;
   padding: 11px 14px;
@@ -208,7 +208,7 @@ body {
 }
 @media (max-width: 768px) {
   .the-nav ul.nav-flyout li a {
-    color: #000;
+    color: #fff;
     display: block;
     text-decoration: none;
     padding: 11px 14px;
@@ -270,6 +270,9 @@ body {
     background: #107fc9 !important;
     color: #fff !important;
   }
+  .subnav a {
+    color: #000 !important;
+}
 /* Large Screen Styles*/
 @media screen and (min-width: 768px) {
   .the-nav {
