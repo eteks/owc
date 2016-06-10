@@ -81,7 +81,7 @@ body {
 .layout-right-content {
   transition: transform .2s ease-in-out;
   transform: translate3d(0, 0, 0);
-  -webkit-perspective: 1000;
+ /* -webkit-perspective: 1000;*/
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
   z-index: 1;
