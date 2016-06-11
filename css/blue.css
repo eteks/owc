@@ -6996,7 +6996,7 @@ p {
 }
 
 ::-moz-selection {
-    /*background: #107fc9;*/
+    background: #107fc9;
     color: #fff;
 }
 
@@ -19496,7 +19496,7 @@ figcaption{color:#0BA3DE;
 
 .tab-content p {
     color: #ffffff;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.2em;
     text-align: justify;
    }
@@ -19512,13 +19512,15 @@ figcaption{color:#0BA3DE;
 
 .tab-pane-list li {
 	list-style-type: disc !important;
-	font-size: 13px;
+	font-size: 16px;
+    line-height: 22px;
 }  
 
 #tab-home ul{ padding: 10px;}
      
 #tab-home ol {
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 #tab-profile ul {  
@@ -19528,7 +19530,8 @@ figcaption{color:#0BA3DE;
 
 #tab-settings ol li{ 
 	color: #ffffff;
-	font-size: 13px;
+	font-size: 16px;
+    line-height: 20px;
 	list-style-type: decimal !important;
    }
 
@@ -19542,7 +19545,7 @@ figcaption{color:#0BA3DE;
 
 .purchase-strip-text {
     line-height: 1.2em;
-    font-size: 13px;
+    font-size: 16px;
     color: #6D6D6D;
     padding: 10px 0px;
     float: left;
@@ -19581,4 +19584,9 @@ figcaption{color:#0BA3DE;
 }
 #button_padding_remove{
     padding: 0 10px;
+}
+#font_size_home li {
+    font-size: 16px !important;
+    line-height: 22px;
+
 }

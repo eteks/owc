@@ -292,7 +292,7 @@
                     	<div class="tab-content">
                       		<div class="tab-pane fade in active" id="tab-home">
                       			<!-- <img alt="" src="images/sustainable.jpg" class="img-responsive tab-img" /> -->
-                      			<ul class="tab-pane-list">
+                      			<ul id="font_size_home" class="tab-pane-list">
                       			   <li>What would the chemical sciences look like if they gave priority to the fact that human and animal health and the biological and physical environments of the planet are all intimately connected? </li>
                       			   <li>How will the chemical sciences realise their potential of playing a key role in achieving sustainable development?</li>
                       			</ul>
@@ -396,10 +396,10 @@
 					if(event.which == 34 || event.which == 40){
 						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll< 644){// scroll to second part
-							$('html, body').stop().animate({scrollTop: 644}, 1000);
+						if(windowscroll >= 0 && windowscroll< 646){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 646}, 1000);
 						}
-						else if(windowscroll>= 644){
+						else if(windowscroll>= 646){
 							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 						}
 					}
@@ -407,11 +407,11 @@
 					if(event.which == 33 || event.which == 38){
 						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll > 0 && windowscroll<= 644){ //scroll to first part
+						if(windowscroll > 0 && windowscroll<= 646){ //scroll to first part
 							$('html, body').stop().animate({scrollTop: 0}, 1000);
 						}
-						else if(windowscroll> 644){//scroll to third part
-							$('html, body').stop().animate({scrollTop: 644}, 1000);
+						else if(windowscroll> 646){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 646}, 1000);
 						}
 					}
 					// Home key and End key action
