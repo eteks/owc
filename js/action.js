@@ -9,6 +9,7 @@
  
   $.cbFlyNav.defaults = {
     trigger: '.btn-flyout-trigger'
+    ,trigger1: '.sustain_link'
     ,cbNavWrapper: '#left-flyout-nav'
     ,cbContentWrapper: '.layout-right-content'
     ,minWidth: 768
@@ -34,6 +35,7 @@
       this.wasOpened = false;
       this.$cbWrap = $('<div class="cbFlyNav-wrap"></div>');
       this.$trigger = $(this.options.trigger);
+      this.$trigger1 = $(this.options.trigger1);
       this.$regMenus = this.$el.children( 'ul.nav.nav-pill' );
       this.$newMenus = $(this.$el.clone());
       this.$contentMask = $('<a class="nav-flyout-contentmask" href="#"></a>');
@@ -52,6 +54,22 @@
             self._copyNav();
           }
           self._openNav();
+        }
+        else {
+          self._closeNav();
+        }
+        self.wasOpened = true;
+        
+        //console.log('WasOpened: '+self.wasOpened+ '. Open? '+self.open);
+      });
+       self.$trigger1.on('click.cbFlyNav', function(e) {
+        e.stopPropagation();
+        
+        if ( !self.open ) {
+          if ( !self.copied ) {
+            self._copyNav();
+          }
+          self._openNav1();
         }
         else {
           self._closeNav();
@@ -140,9 +158,28 @@
       $(self.options.cbContentWrapper)
                         .addClass('isCbFlyNavActive')
                         .append(self.$contentMask);
-
+      $('#sustain_select').addClass('active_sustain');
       self.open = true;
     },
+     openNav1 : function() {
+      if ( !this.open ) {
+        this._openNav1();
+      }
+    },
+    
+    _openNav1 : function() {
+      var self = this;
+      console.log("Opening Nav");
+        
+      $(self.options.cbNavWrapper).addClass('isCbFlyNavActive');
+      $(self.options.cbContentWrapper)
+                        .addClass('isCbFlyNavActive')
+                        .append(self.$contentMask);
+      $('#sustain_select').addClass('active_sustain');
+      self.open = true;
+    },
+
+
     
     closeNav : function() {
       if ( !this.close ) {

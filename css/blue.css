@@ -14232,6 +14232,7 @@ input[type="date"] {
     color: #e6e7e8;
     line-height: 2.3em;
     padding-bottom: 35px;
+    padding-top: 24px;
     float: left;
     width: 100%;
     text-align: center;
@@ -19265,12 +19266,13 @@ input[type="date"] {
 .logo_subtitle{
 	color: #107fc9;
     font-size: 1.4vw;
-    padding: 0 5px;
+    padding: 26px 90px 0px;
     text-align: center;
 }
 .logo_subtitle_under{
 	text-align: center;
 	font-size: 1vw;
+    padding :7px 90px 0px;
 }
 }
 .logo_chem_bottom{
