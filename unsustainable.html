@@ -221,14 +221,16 @@
 					if(event.which == 34 || event.which == 40){
 						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll< 626){// scroll to second part
-							$('html, body').stop().animate({scrollTop: 626}, 1000);
+						if(windowscroll >= 0 && windowscroll< 247){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 247}, 1000);
 						}
-						
-						else if(windowscroll >= 626 && windowscroll< 1235){ //scroll to third part
-							$('html, body').stop().animate({scrollTop: 1235}, 1000);
+						else if(windowscroll >= 247 && windowscroll< 779){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 779}, 1000);
 						}
-						else if(windowscroll>= 1235){
+						else if(windowscroll >= 779 && windowscroll< 1371){ //scroll to third part
+							$('html, body').stop().animate({scrollTop: 1371}, 1000);
+						}
+						else if(windowscroll>= 1371){
 							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 						}
 					}
@@ -236,15 +238,17 @@
 					if(event.which == 33 || event.which == 38){
 						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll<= 626){ //scroll to first part
+						if(windowscroll >= 0 && windowscroll<= 247){ //scroll to first part
 							$('html, body').stop().animate({scrollTop: 0}, 1000);
 						}
-						
-						else if(windowscroll > 626 && windowscroll<= 1235){ // scroll to second part
-							$('html, body').stop().animate({scrollTop: 626}, 1000);
+						else if(windowscroll > 247 && windowscroll<= 779){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 247}, 1000);
 						}
-						else if(windowscroll> 1235){//scroll to third part
-							$('html, body').stop().animate({scrollTop: 1235}, 1000);
+						else if(windowscroll > 779 && windowscroll<= 1371){ // scroll to second part
+							$('html, body').stop().animate({scrollTop: 779}, 1000);
+						}
+						else if(windowscroll> 1371){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 1371}, 1000);
 						}
 					}
 					// Home key and End key action

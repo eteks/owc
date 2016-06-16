@@ -224,10 +224,10 @@
 					if(event.which == 34 || event.which == 40){
 						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll< 602){// scroll to second part
-							$('html, body').stop().animate({scrollTop: 602}, 1000);
+						if(windowscroll >= 0 && windowscroll< 574){// scroll to second part
+							$('html, body').stop().animate({scrollTop: 574}, 1000);
 						}
-						else if(windowscroll>= 602){
+						else if(windowscroll>= 574){
 							$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
 						}
 					}
@@ -235,11 +235,11 @@
 					if(event.which == 33 || event.which == 38){
 						event.preventDefault();
 						var windowscroll = $(window).scrollTop();
-						if(windowscroll >= 0 && windowscroll<= 602){ //scroll to first part
+						if(windowscroll >= 0 && windowscroll<= 574){ //scroll to first part
 							$('html, body').stop().animate({scrollTop: 0}, 1000);
 						}
-						else if(windowscroll> 602){//scroll to third part
-							$('html, body').stop().animate({scrollTop: 602}, 1000);
+						else if(windowscroll> 574){//scroll to third part
+							$('html, body').stop().animate({scrollTop: 574}, 1000);
 						}
 					}
 					// Home key and End key action
