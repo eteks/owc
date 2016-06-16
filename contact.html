@@ -28,7 +28,7 @@
 			<div class="container">
 				<header class="the-header">
 					<div class="logo_with_content">
-			        	<a href="index.html"><img src="images/imed-logos-sm.png" height="61" width="117" class="logo_chem"/></a>
+			        	<a href="index.html"><img src="images/imed-logos-sm.png"  class="logo_chem"/></a>
 			        	<p class="logo_subtitle hidden-sm hidden-xs">Systems thinking to shape the chemical sciences for sustainable development</p>
 			        	<p class="logo_subtitle_under hidden-sm hidden-xs">An initiative of the International Organization for Chemical Sciences in Development</p>
 				    </div>
@@ -90,7 +90,7 @@
 				                	</ul>
 				                </li>
 				                <li class="dropdown1">
-				                	<a href="#">Contact us  <b class="caret"></b></a>
+				                	<a href="#" id="sustain_select">Contact us  <b class="caret"></b></a>
 				               		<ul class="subnav">
 				                	  <li class="is_active_list"><a href="contact.html">Contact OWC</a></li>
 				                 	  <li><a href="iocd.html">IOCD</a></li>
@@ -113,7 +113,7 @@
 			            	<div class="bread-heading"><h1>Contact OWC</h1></div>
 			                <div class="bread-crumb pull-right hidden-sm hidden-xs">
 				                <ul>
-				                	<li><a>Contact us</a></li>
+				                	<li><a href="#" class="sustain_link">Contact us</a></li>
 				                	<li><a>Contact OWC</a></li>
 				                </ul>
 			                </div>
@@ -155,7 +155,7 @@
 				                            </div>
                         					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
                         						<section class="color-7" id="btn-click">
-            										<button class="icon-mail btn2-st2 btn-7 btn-7b"  data-loading-text="Loading..." type="submit">Submit</button>
+            										<button id="button_padding_remove" class="btn2-st2 btn-7 btn-7b"  data-loading-text="Loading..." type="submit">Submit</button>
             									</section>
             								</div>
              							</form>
@@ -173,7 +173,7 @@
 	        		<div class="row">
 	                	<!--Foot widget-->
 	                	<div class="col-xs-12 col-sm-3 col-md-3 foot-widget">
-	                    	<a href="index.html"><div class="col-xs-12 no-pad"><img src="images/imed-logos-sm.png" height="54" width="135" class="logo_chem_bottom"/></div></a>
+	                    	<a href="index.html"><div class="col-xs-12 no-pad"><img src="images/imed-logos-sm.png" class="logo_chem_bottom"/></div></a>
 	                       
 	                    </div>
 	                    <!--Foot widget-->
@@ -200,19 +200,6 @@
 	    <script type="text/javascript" src="js/jquery.imedica.min.js"></script>
 	    <script type="text/javascript" src="js/custom-imedicajs.min.js"></script>
 	    <script type="text/javascript" src="js/action.js"></script>
-	    <script type="text/javascript">
-		$(document).ready(function(){
-	    		$(document).on( "keydown", function( event ) {
-	    			event.preventDefault();
-		    		if(event.which == 34 || event.which == 40){
-						$("html, body").animate({ scrollTop: $(document).height()-$(window).height() },1000);
-					}
-					if(event.which == 33 || event.which == 38){
-						$('html, body').stop().animate({scrollTop: 0}, 1000);
-					}
-				});
-	    	});
-	</script>
 	</div>
 	</body>
 </html>

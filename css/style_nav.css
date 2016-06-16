@@ -81,7 +81,7 @@ body {
 .layout-right-content {
   transition: transform .2s ease-in-out;
   transform: translate3d(0, 0, 0);
-  -webkit-perspective: 1000;
+ /* -webkit-perspective: 1000;*/
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
   z-index: 1;
@@ -146,8 +146,8 @@ body {
 }
 
 .btn-navbar-navtoggle {
-  right: 10px;
-  top: 25px;
+  right: 0;
+  top: 47px;
 }
 .btn-navbar .icon-bar {
   display: block;
@@ -176,7 +176,7 @@ body {
   right: 10px;
   /*background: #000;*/
   margin-bottom: 10px;
-  width: 100%;
+  width: 13%;
   padding: 0 10px;
   border: none;
   /*font-family: "Lato", sans-serif;*/
@@ -266,11 +266,12 @@ body {
   color: #000;
   opacity: 1;
 }
- .the-nav ul.nav-flyout li ul.subnav li a:hover {
-    background: #107fc9 !important;
-    color: #fff !important;
-  }
-  .subnav a {
+
+.the-nav ul.nav-flyout li ul.subnav li a:hover {
+  background: #107fc9 !important;
+  color: #fff !important;
+}
+.subnav a {
     color: #000 !important;
 }
 /* Large Screen Styles*/
@@ -400,9 +401,9 @@ ul li {
   /*width: 100%;*/
 }
 
-.pull-right {
+/*.pull-right {
   float: right;
-}
+}*/
 
 .dropdown1 .caret {
   display: inline-block;
@@ -459,7 +460,7 @@ a.gh-btn:hover {
 
 
 header {
-    height: 100px;
+    height: 127px;
     position: relative;
     -moz-animation-name: dropHeader;
     -moz-animation-iteration-count: 1;
@@ -513,8 +514,23 @@ header ul li{
         transform: translateY(0);
     }
 }
-
-
+.sustain_link {
+  cursor: pointer;
+  text-decoration: none !important;
+  outline: medium none !important;
+}
+.active_sustain {
+  background: #fff none repeat scroll 0 0;
+  color: #000 !important;
+}
+.logo_chem {
+  height: auto;
+  width: 10%;
+}
+.logo_chem_bottom {
+  height: auto;
+  width: 40%;
+}
 
 
 

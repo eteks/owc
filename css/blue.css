@@ -6996,7 +6996,7 @@ p {
 }
 
 ::-moz-selection {
-    /*background: #107fc9;*/
+    background: #107fc9;
     color: #fff;
 }
 
@@ -9370,6 +9370,22 @@ a:focus {
     -o-transition: .5s;
     transition: .5s;
     text-align:justify;
+}
+@media (max-width: 768px) {
+  .intro-content-wrap li {
+        list-style-type: none;
+        /*border-bottom: 1px solid #f1f2f2;*/
+        line-height: 4.5em;
+        color: #6d6d6d;
+        font-size: 13px;
+        padding-left: 0px;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+        text-align:justify;
+    }  
 }
 
 .intro-content-wrap li .about-list-arrows {
@@ -14216,6 +14232,7 @@ input[type="date"] {
     color: #e6e7e8;
     line-height: 2.3em;
     padding-bottom: 35px;
+    padding-top: 24px;
     float: left;
     width: 100%;
     text-align: center;
@@ -16280,7 +16297,14 @@ input[type="date"] {
     .intro-content-wrap p {
         width: 100%;
         float: left;
-        padding: 0 15px
+        padding: 0 15px;
+    }
+    @media (max-width: 768px) {
+        .intro-content-wrap p {
+            width: 100%;
+            float: left;
+            padding: 0;
+        }
     }
     .intro-content-wrap li,
     .intro-content-wrap ul {
@@ -19242,12 +19266,13 @@ input[type="date"] {
 .logo_subtitle{
 	color: #107fc9;
     font-size: 1.4vw;
-    padding: 0 5px;
+    padding: 26px 90px 0px;
     text-align: center;
 }
 .logo_subtitle_under{
 	text-align: center;
 	font-size: 1vw;
+    padding :7px 90px 0px;
 }
 }
 .logo_chem_bottom{
@@ -19473,7 +19498,7 @@ figcaption{color:#0BA3DE;
 
 .tab-content p {
     color: #ffffff;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.2em;
     text-align: justify;
    }
@@ -19489,13 +19514,15 @@ figcaption{color:#0BA3DE;
 
 .tab-pane-list li {
 	list-style-type: disc !important;
-	font-size: 13px;
+	font-size: 16px;
+    line-height: 22px;
 }  
 
 #tab-home ul{ padding: 10px;}
      
 #tab-home ol {
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 #tab-profile ul {  
@@ -19505,7 +19532,8 @@ figcaption{color:#0BA3DE;
 
 #tab-settings ol li{ 
 	color: #ffffff;
-	font-size: 13px;
+	font-size: 16px;
+    line-height: 20px;
 	list-style-type: decimal !important;
    }
 
@@ -19519,7 +19547,7 @@ figcaption{color:#0BA3DE;
 
 .purchase-strip-text {
     line-height: 1.2em;
-    font-size: 13px;
+    font-size: 16px;
     color: #6D6D6D;
     padding: 10px 0px;
     float: left;
@@ -19541,3 +19569,26 @@ figcaption{color:#0BA3DE;
     }
 }
 
+.text-references {
+    color: #6d6d6d !important;
+    font-size: 19px;
+    font-weight: normal;
+}
+.border-last {
+    color: #6d6d6d !important;
+    font-size: 19px;
+    font-weight: normal;
+}
+@media (max-width: 350px) {
+    #min_width_resource {
+        text-align: center;
+    }
+}
+#button_padding_remove{
+    padding: 0 10px;
+}
+#font_size_home li {
+    font-size: 16px !important;
+    line-height: 22px;
+
+}

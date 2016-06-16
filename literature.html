@@ -29,7 +29,7 @@
 			<div class="container">
 				<header class="the-header">
 					<div class="logo_with_content">
-			        	<a href="index.html"><img src="images/imed-logos-sm.png" height="61" width="117" class="logo_chem"/></a>
+			        	<a href="index.html"><img src="images/imed-logos-sm.png"class="logo_chem"/></a>
 			        	<p class="logo_subtitle hidden-sm hidden-xs">Systems thinking to shape the chemical sciences for sustainable development</p>
 			        	<p class="logo_subtitle_under hidden-sm hidden-xs">An initiative of the International Organization for Chemical Sciences in Development</p>
 				    </div>
@@ -85,7 +85,7 @@
 				                	</ul>
 				                </li>
 				                <li class="dropdown1">
-				                	<a href="#">Information Resources  <b class="caret"></b></a>
+				                	<a href="#" id="sustain_select">Information Resources  <b class="caret"></b></a>
 				                	<ul class="subnav">
 				                  		<li class="is_active_list"><a href="literature.html">Literature Resources</a></li>
 				                	</ul>
@@ -113,11 +113,11 @@
     						<!--Title / Beadcrumb-->
      						<div class="inner-page-title-wrap col-xs-12 col-md-12 col-sm-12">
         						<div class="bread-heading hidden-sm hidden-xs"><h1>Literature resources</h1></div>
-        						<div class="bread-heading hidden-md hidden-lg"><h1>Literature</h1></div>
+        						<div id="min_width_resource" class="bread-heading hidden-md hidden-lg"><h1>Literature resources</h1></div>
             					<div class="bread-crumb pull-right hidden-sm hidden-xs">
             						<ul>
-            							<li><a>Information resources</a></li>
-            							<li><a class="hidden-sm hidden-xs">Literature resources</a><a class="hidden-md hidden-lg">Literature</a></li>
+            							<li><a href="#" class="sustain_link">Information resources</a></li>
+            							<li><a class="hidden-sm hidden-xs">Literature resources</a><a class="hidden-md hidden-lg">Literature resources</a></li>
             						</ul>
         						</div>
         					</div>
@@ -224,7 +224,7 @@
             		<div class="row">
                     	<!--Foot widget-->
                     	<div class="col-xs-12 col-sm-3 col-md-3 foot-widget">
-                        	<a href="index.html"><div class="col-xs-12 no-pad"><img src="images/imed-logos-sm.png" height="54" width="135" class="logo_chem_bottom"/></div></a>
+                        	<a href="index.html"><div class="col-xs-12 no-pad"><img src="images/imed-logos-sm.png" class="logo_chem_bottom"/></div></a>
 	                       
                         </div>
                         <!--Foot widget-->
@@ -278,6 +278,7 @@
 						}
 						else if(windowscroll> 826){//scroll to third part
 							$('html, body').stop().animate({scrollTop: 826}, 1000);
+
 						}
 					}
 					// Home key and End key action
