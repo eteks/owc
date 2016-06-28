@@ -1,0 +1,36 @@
+
+#accordion {
+/*  width: 60%;
+  margin: 10px auto;
+  height: 50%;*/
+}
+
+#accordion .panels {
+}
+
+#accordion .panels span {
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    /*text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;*/
+    transition: all 0.3s ease 0s;
+}
+#accordion .panels span:hover {
+  color: #428bca !important;
+}
+/*#accordion ul a { color: #333; }*/
+
+#accordion .panel {
+  display: none;
+  border: none;
+}
+
+@media (max-width: 800px) {
+
+#accordion {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+}
+

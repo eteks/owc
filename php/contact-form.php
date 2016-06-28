@@ -7,7 +7,7 @@ header('Content-type: application/json');
 require 'php-mailer/class.phpmailer.php';
 
 // Your email address
-$to = 'info@oneworldchemistry.org';
+$to = 'deepakkuppusamy.gs@gmail.com';
 
 $subject = $_POST['subject'];
 
@@ -36,42 +36,22 @@ if($to) {
 	foreach($fields as $field) {
 		$message .= $field['text'].": " . htmlspecialchars($field['val'], ENT_QUOTES) . "<br>\n";
 	}
+	// Always set content-type when sending HTML email
+	$headers = "MIME-Version: 1.0" . "\r\n";
+	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 	
-	$mail = new PHPMailer;
-
-	$mail->IsSMTP();                                      // Set mailer to use SMTP
+	// More headers
+	$headers .= 'From: <'.$email.'>' . "\r\n";
 	
-	// Optional Settings
-	//$mail->Host = 'mail.yourserver.com';				  // Specify main and backup server
-	//$mail->SMTPAuth = true;                             // Enable SMTP authentication
-	//$mail->Username = 'username';             		  // SMTP username
-	//$mail->Password = 'secret';                         // SMTP password
-	//$mail->SMTPSecure = 'tls';                          // Enable encryption, 'ssl' also accepted
-
-	$mail->From = $email;
-	$mail->FromName = $_POST['name'];
-	$mail->AddAddress($to);								  // Add a recipient
-	$mail->AddReplyTo($email, $name);
-
-	$mail->IsHTML(true);                                  // Set email format to HTML
 	
-	$mail->CharSet = 'UTF-8';
-
-	$mail->Subject = $subject;
-	$mail->Body    = $message;
-
-	if(!$mail->Send()) {
-	   $arrResult = array ('response'=>'error');
+	$send = mail($to,$subject,$message,$headers);
+	
+	if($send){
+		echo "success";
 	}
-
-	$arrResult = array ('response'=>'success');
-
-	echo json_encode($arrResult);
+	else {
+		echo "error";
+	}
 	
-} else {
-
-	$arrResult = array ('response'=>'error');
-	echo json_encode($arrResult);
-
 }
 ?>

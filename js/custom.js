@@ -1,8 +1,10 @@
 jQuery(document).ready(function($) {
+	$('.magnify_popup').magnificPopup({type:'image'});
 $('#photo-carousel').carousel({
 
         interval: 5000
 });
+
 $('#carousel-text').html($('#slide-content-0').html());
 
 //Handles the carousel thumbnails
@@ -30,7 +32,27 @@ $(".toggle-all-section").toggle();
 
 });
 
+$('.read_more_link').click(function() {
+        $(this).html($(this).text() == 'Close' ? 'Read More' : 'Close');
+  $('.read_more_link').not(this).html('Read More');
+        // if ($(this).text() == "Read More") {
+      //  $(this).html('Read Less')
+      // }
+      
+  });
+  
+  $('.dropdown').mouseover(function() {
+         $(this).parent().find('.dropdown-menu').show();
+       
+   });
+  
+   $('.dropdown').mouseout(function() {
+         $(this).parent().find('.dropdown-menu').hide();
+     
+   });
+
 });
+
 
 
 
