@@ -51,7 +51,7 @@
             			<div class="col-xs-12 col-lg-12  col-sm-12 col-md-12 pull-left contact2-wrap no-pad">
                 		<!--contact widgets-->
                 			<div class="col-xs-12 col-lg-12 col-sm-12 col-md-12 pull-left no-pad">
-                    			<div class="subtitle col-xs-12 no-pad col-sm-12 col-md-12 pull-left news-sub icontact-widg">One-World Chemistry</div>
+                    			<div class="subtitle col-xs-12 col-sm-12 col-md-12 pull-left news-sub icontact-widg" style="padding-top:20px !important;">One-World Chemistry</div>
                     			<!--Contact form-->
                 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 no-pad wow fadeInUp" data-wow-delay="0.5s" data-wow-offset="160">
                     				<div></div>                 

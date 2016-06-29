@@ -1,8 +1,8 @@
 
 #accordion {
 /*  width: 60%;
-  margin: 10px auto;
-  height: 50%;*/
+  height: 50%; */
+  margin: 10px auto ;
 }
 
 #accordion .panels {
@@ -28,12 +28,6 @@
   border: none;
 }
 
-@media (max-width: 800px) {
 
-#accordion {
-  /*width: 100vw;*/
-  /*height: 100vh;*/
-  margin: 0;
-}
 }
 

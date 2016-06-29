@@ -34,7 +34,6 @@
 					</div>
 				</div> 		 
 			</div>
-			<br>
 			<div class="container">
 				<div class="row">
 					<div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left">

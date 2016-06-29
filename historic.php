@@ -27,8 +27,7 @@
 								<li>An important precursor to the steep rise in average global wealth was the Agricultural Revolution, which in Europe took place in the 17-19<sup>th</sup> centuries. By greatly increasing agricultural output, it liberated large numbers of people from growing food and they moved to the towns and cities where the industrial revolution benefitted from their labour. The chemical sciences made a major contribution to this growing global wealth:<sup>2</sup></li>
 							</ul>
 						</div>
-						
-						<div class="col-md-12 col-xs-12 col-sm-12 pull-left intro-content-wrap elemnts-wrap typopraphy-elements content_with_hypen">
+						<div class="col-md-12 col-xs-12 col-sm-12 pull-left intro-content-wrap elemnts-wrap typopraphy-elements content_with_hypen text-indent">
 						    <span class="fl">-</span> <p class="text_1 padding_20 fl black_italic"> Since 1800, the field of electrochemistry laid the foundations for the electrochemical industry, including the generation of electrical power, its storage in portable forms in batteries, and electrolysis processes providing valuable industrial materials.</p>
 							<div class="clearfix"></div>
 							<span class="fl">-</span> <p class="text_1 padding_20 fl black_italic"> Synthetic chemistry began making big advances in the 1840s and 50s with work on the aniline dyes. As well as directly stimulating new fashion industries, the expertise that began to accumulate in the scale-up and commercialization of synthesis processes very soon led to major growth in organic chemicals industries.</p>
@@ -66,7 +65,7 @@
 								<li>The chemical sciences have been very major contributors to this technical progress and to the attendant dramatic increase in average global life expectancies:</li>
 							</ul>
 						</div>
-						<div class="content_with_hypen col-md-12 col-lg-12 col-xs-12 col-sm-12 pull-left intro-content-wrap elemnts-wrap typopraphy-elements">
+						<div class="content_with_hypen col-md-12 col-lg-12 col-xs-12 col-sm-12 pull-left intro-content-wrap elemnts-wrap typopraphy-elements text-indent">
 							<span class="fl">-</span> <p class="text_1 padding_20 fl black_italic"> An important underpinning development was the Agricultural Revolution, which ensured that people were better fed and not malnourished.</p>
 							<div class="clearfix"></div>	
 							<span class="fl">-</span> <p class="text_1 padding_20 fl black_italic"> The field of immunization began with the demonstration that cowpox could be used to inoculate against smallpox. Subsequently, the chemical sciences have been fundamental to the development vaccines against a wide range of deadly diseases.</p>

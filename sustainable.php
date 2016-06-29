@@ -17,7 +17,7 @@
              	</div>        
          		<div class="container">
             		<div class="row">
-            			<div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad">
+            			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad">
              				<div class="section1_text" class="col-xs-12 col-sm-8 col-md-6 col-lg-6 no-pad">
                					<div>
                						<!-- <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">

@@ -20,20 +20,16 @@
 				        <div class="row">
 				             
 			                
-				           <div class="intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad" style="visibility: visible;">
+				           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left no-pad" style="visibility: visible;">
 				                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
 				                    <p>The environment in which chemistry takes place is not just the immediate walls of the test tube or reaction flask – beyond these is the whole world. In this larger setting, the conduct of chemistry impacts on many interconnected systems.</p>
 				                    <p>Consider, for example, the life cycle of a chemical product (see figure below):</p>
-				                    
 				                </div>
 				              </div>
-				           
-				        </div>
+				          </div>
 				    </div>
-				    <br>
-				    
 				    <div class="container paraa">
-				        <div class="text-indent intro-content-wrap col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left" style="visibility: visible;">
+				        <div class="text-indent content_with_hypen col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left" style="visibility: visible;">
 				           	<ul class="style_pad"><li class="list_style_add system">Chemical reactions, whether they are small-scale laboratory or large-scale manufacturing processes, generate waste materials that need to be managed – including containment, disposal and recycling – in a safe and sustainable manner.</li></ul>
 			                <ul class="style_pad"><li class="list_style_add system">The raw materials used, whether they are natural  resources or other manufactured intermediates, must be sourced efficiently, cleanly, safely and sustainably. </li></ul>
 				            <ul class="style_pad"><li class="list_style_add system"> The products of manufacture may find very diverse uses, including household, medical, industrial and agricultural applications in which they come into contact with people, animals and the environment – and they must therefore be tested to ensure their biological and environmental safety. </li></ul>
@@ -42,6 +38,7 @@
 				            <ul class="style_pad"><li class="list_style_add system"> The ‘chemistry system’ therefore interlinks with a host of other overlapping systems including the biosphere, the environment, human and animal health, economics, politics, psychology and the law. </li></ul>
 				        </div>
 				     </div>
+				     <br>
 				    <div class="container">
 				        <div class="col-md-12 col-xs-12 col-sm-12 pull-left full-content">
 				            <p class="bold_italic_black">One-World Chemistry embraces the view that the chemical sciences should not be taught or practiced without an in-built consideration of these relationships – i.e. education and practice in chemistry must be informed by systems thinking. This must encourage policies, programmes and practices that are aware of complexity and prepared for unintended consequences.</p>

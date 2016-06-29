@@ -137,10 +137,7 @@
                 <!-- Fifth Tab Start -->
                 <h4 class="heading_color"> Ethical science: </h4>
                 <span class="purchase-strip-text"> One-World Chemistry is concerned with benefitting all people and avoiding harp to people, animals and the environment. It must therefore be practiced as an <a href="ethical.php"> ethical science.</a> </span>
-                <div class="panel panel5 tab-content"> 
-
-                </div>
-
+               
                 <!-- Fifth Tab End -->
             </div>
         </div>

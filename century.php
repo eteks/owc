@@ -60,14 +60,14 @@
                 <a href="#" data-hover="View All Features"><span>View All Features</span></a>
                 </nav>
                 </section>-->
-               <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+             </div>
+           </div>
+           <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 ">
              		<h4 class="heading_color">References:</h4>
              		<p><a href="//esa.un.org/unpd/wup/highlights/wup2014-highlights.pdf" target="_blank">1. World Urbanization Prospects - The 2014 Revision: Highlights. UN Department of Economic and Social Affairs, 2014.</a></p>
 					<p><a href="http://waterindustry.org/Water-Facts/world-water-6.htm"  target="_blank">2. The Connection: Water Supply and Energy Reserves</a></p>
 					<p><a  target="_blank" href="http://www.acs.org/content/acs/en/greenchemistry/research-innovation/research-topics/endangered-elements.html">3. Endangered elements</a></p>
-			   </div> 
-             </div>
-          </div>
+		   </div> 
       
          </div>
      </div>

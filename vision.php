@@ -33,7 +33,7 @@
 					        	</div>
 		    				</div>
 		    			</div>
-			        	<div class="col-md-12 col-xs-12 col-sm-12 pull-left intro-content-wrap elemnts-wrap typopraphy-elements">
+			        	<div class="col-md-12 col-xs-12 col-sm-12 pull-left intro-content-wrap elemnts-wrap">
                 			<ul>
 		       	    			<!-- <li class=""><b class="heading_color">The concept of ‘one-world’ chemistry</b></li> -->
 		       	    			<li class="">The chemical sciences provide understanding of the physical and chemical properties of atoms and molecules and practical methods for creating new molecular structures with useful applications. Chemistry is a ‘platform science’, contributing to fundamental aspects of a range of other sciences and underpinning the dramatic advances seen in recent decades in such fields as biotechnology, energy, the environment, genetics, materials and medicine.</li>

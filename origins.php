@@ -24,7 +24,6 @@
 	            </div>
 	            <div class="col-md-12 no-pad col-xs-12 col-sm-12 pull-left full-content">
 	                <p class="text_1">Subsequently, Matlin and three other IOCD scientists, <b class="bold_italic_black">Goverdhan Mehta, Henning Hopf</b> and <b class="bold_italic_black">Alain Krief</b>, developed this idea further and elaborated it into the concept of ‘One-World Chemistry’. The IOCD group published a <a href="http://www.nature.com/nchem/journal/v8/n5/full/nchem.2498.html" target="_blank"> paper </a> in <i>Nature Chemistry</i> in 2016, introducing the concept which embodies the group’s view that chemistry must go beyond <b class="black_italic">‘being a science’</b> and embrace <b class="black_italic">‘being a science for the benefit of society’.</b> </p>
-	                <p class="text_1"></p>
 	            </div>
 	      	</div>
 		</div>

@@ -26,9 +26,9 @@
 		            <div class="col-md-12 no-pad col-xs-12 col-sm-12 pull-left full-content content_with_hypen setmargin">   
 		                <ul><li class="text_1 black_italic list_style_add">At the individual and institutional level: chemical scientists individually and in groups should reflect on the objectives of One-World Chemistry and the changes needed in structures and processes, in education, research and practice, to achieve these objectives. They should communicate their ideas through formal and informal publications and through the channels of the professional societies and bodies to which they belong.</li></ul>
 		             	<ul><li class="text_1 black_italic list_style_add">At the national and international levels: relevant professional academic and industry associations should come together to debate the objectives and institute processes to reach consensus on the nature and content of a Global Action Plan for One-World Chemistry.</li></ul>
-		           		<ul><li class="text_1 black_italic list_style_add">A mechanism for reaching consensus at the global level and for the subsequent promotion of the Global Action Plan and its implementation should be established. This might be led by an existing single agency or consortium of agencies (e.g. IUPAC, UNESCO); or, if such an approach would be assessed as likely to become bogged down in bureaucratic procedures and politics, it might be led by a newly formed international committee of commission, with voluntary support from existing international and national agencies.</li></ul>
+		           		<ul><li class="text_1 black_italic list_style_add" style="margin-bottom:10px;">A mechanism for reaching consensus at the global level and for the subsequent promotion of the Global Action Plan and its implementation should be established. This might be led by an existing single agency or consortium of agencies (e.g. IUPAC, UNESCO); or, if such an approach would be assessed as likely to become bogged down in bureaucratic procedures and politics, it might be led by a newly formed international committee of commission, with voluntary support from existing international and national agencies.</li></ul>
 	                </div>
-		        </div><!--container-->
+	             </div><!--container-->
          	</div>
 		</section>
 <?php include ('footer.php'); ?>

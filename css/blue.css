@@ -7127,7 +7127,7 @@ ul.tert-nav li.searchit {
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     z-index: 9999;
-    display:none;
+
 }
 
 .cl-effect-10 a span,
@@ -18768,7 +18768,7 @@ ol.text-indent li {
 #class_intro li{ padding-left: 5px; }
 
 .footer_logo_align { 
-	height: 154px;
+	height: auto;
 	width: 158px;
 	}
 
@@ -18920,14 +18920,18 @@ ol.text-indent li {
 	.logo_chem_bottom {
 	    display: block;
 	    /*height: 100%;*/
-	    margin: 0 auto;
-	    width: 45% !important;
+	    margin: 0 auto !important;
+	    width: 35% !important;
+	}
+	
+	.navbar-toggle {
+ 	   margin: 0;
 	}
 	
 
 }
 
- 
+
 /*--------------------------*/
 
 @media (max-width:999px){
@@ -18957,28 +18961,10 @@ ol.text-indent li {
 	    text-indent: -5px;
     }	
     
-    .footer_logo_align { 
-		/*height: 154px;*/
-		width: 100%;
-	}
-
-	.image_centering img {
-	    height: auto;
-	    width: 100%;
-    }
-	.logo_chem_bottom {
-	    display: block;
-	    /*height: 100%;*/
-	    margin: 0 auto;
-	    width: 25% !important;
-	}
-	
-	.text_1, .text_2, .heading-content p , .innov, .key_question ,.system, .intro-content-wrap li,.full-content p,body{
-	       text-align: justify !important;
+   .text_1, .text_2, .heading-content p , .innov, .key_question ,.system, .intro-content-wrap li,.full-content p,body{
+	    text-align: justify !important;
 	 }
 	
-    
-    
 }
 
 @media (min-width:501px) and (max-width:999px){

@@ -32,7 +32,7 @@
                       			<div class="row">
                         			<!-- Brand and toggle get grouped for better mobile display -->
 	                                <div class="logo_with_content">
-	                                	<a href="index.php"><img src="images/imed-logos-sm.png" height="154" width="158" class="logo_chem"/></a>
+	                                	<a href="index.php"><img src="images/imed-logos-sm.png" height="auto" width="158" class="logo_chem"/></a>
 			                        	<!-- <p class="logo_subtitle hidden-sm hidden-xs">Systems thinking to shape the chemical sciences for sustainable development</p>
 			                        	<p class="logo_subtitle_under hidden-sm hidden-xs">An initiative of the International Organization for Chemical Sciences in Development</p> -->
 			                        	<h1 class="logo_subtitle_under">ONE-WORLD CHEMISTRY</h1>
@@ -49,15 +49,16 @@
             						<!-- Collect the nav links, forms, and other content for toggling -->
 				                    <div class="collapse navbar-collapse no-pad nav_center " id="bs-example-navbar-collapse-1">
 										<ul class="nav navbar-nav navbar-right no-margin">
-				                            <li class="dropdown <?php if(basename($_SERVER['PHP_SELF']) == 'index.php' || basename($_SERVER['PHP_SELF']) == 'sitemap.php') echo "active"; ?>"><a href="index.php" class="dropdown-toggle" data-toggle="dropdown" target="_blank"><i class="fa fa-home hidden-xs hidden-md" aria-hidden="true"></i> Home</a>
+				                            <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF']) == 'index.php' || basename($_SERVER['PHP_SELF']) == 'sitemap.php') echo "active"; ?>">
+				                            	<a href="index.php" class="dropdown-toggle" data-toggle="dropdown" target="_blank">
+				                            		<i class="fa fa-home hidden-xs hidden-md" aria-hidden="true"></i> Home</a>
 												<ul class="dropdown-menu">
 				                                    <li><a href="index.php">Home</a></li>
-													<li><a href="sitemap.php">Site map</a></li>
-													
+													<li><a href="sitemap.php">Site map</a></li>													
 				                                </ul>
 											</li>
 				
-				                            <li class="dropdown <?php if(basename($_SERVER['PHP_SELF']) == 'vision.php' || basename($_SERVER['PHP_SELF']) == 'need.php'|| basename($_SERVER['PHP_SELF']) == 'origins.php' || basename($_SERVER['PHP_SELF']) == 'about.php') echo "active"; ?>"><a href="vision.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cog hidden-xs hidden-md" aria-hidden="true"></i> About OWC<b class="icon-angle-down"></b></a>
+				                            <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF']) == 'vision.php' || basename($_SERVER['PHP_SELF']) == 'need.php'|| basename($_SERVER['PHP_SELF']) == 'origins.php' || basename($_SERVER['PHP_SELF']) == 'about.php') echo "active"; ?>"><a href="vision.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cog hidden-xs hidden-md" aria-hidden="true"></i> About OWC<b class="icon-angle-down"></b></a>
 				                                <ul class="dropdown-menu">
 				                                	<li><a href="vision.php">Vision</a></li>
 				                                    <li><a href="need.php">Need for a unified approach</a></li>
@@ -66,7 +67,7 @@
 				                                </ul>
 				                            </li>
 				                            
-				                            <li class="dropdown <?php if(basename($_SERVER['PHP_SELF']) == 'century.php' || basename($_SERVER['PHP_SELF']) == 'sustainable.php'|| basename($_SERVER['PHP_SELF']) == 'unsustainable.php' ) echo "active"; ?>"><a href="century.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file-text hidden-xs hidden-md" aria-hidden="true"></i> Sustainable development<b class="icon-angle-down"></b></a>
+				                            <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF']) == 'century.php' || basename($_SERVER['PHP_SELF']) == 'sustainable.php'|| basename($_SERVER['PHP_SELF']) == 'unsustainable.php' ) echo "active"; ?>"><a href="century.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file-text hidden-xs hidden-md" aria-hidden="true"></i> Sustainable development<b class="icon-angle-down"></b></a>
 				                                <ul class="dropdown-menu">
 				                                	<li><a href="century.php">21<sup>st</sup> Century challenges</a></li>
 						                            <li><a href="sustainable.php">Sustainable Development</a></li>
@@ -74,7 +75,7 @@
 			                                   </ul>
 				                            </li>
 				                            
-				                            <li class="dropdown <?php if(basename($_SERVER['PHP_SELF']) == 'system.php' || basename($_SERVER['PHP_SELF']) == 'cross.php') echo "active"; ?>"><a href="system.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-lightbulb-o hidden-xs hidden-md" aria-hidden="true"></i> Systems thinking<b class="icon-angle-down"></b></a>
+				                            <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF']) == 'system.php' || basename($_SERVER['PHP_SELF']) == 'cross.php') echo "active"; ?>"><a href="system.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-lightbulb-o hidden-xs hidden-md" aria-hidden="true"></i> Systems thinking<b class="icon-angle-down"></b></a>
 				                                <ul class="dropdown-menu">
 				                                	<li class="hidden-xs hidden-sm"><a href="system.php">The need for systems thinking in the <br>chemical sciences</a></li>
 				                                	<li class="hidden-md hidden-lg"><a href="system.php">The need for systems thinking in the chemical sciences</a></li>
@@ -82,8 +83,8 @@
 				                                </ul>
 				                            </li>
 				                            
-				                            <li class="dropdown <?php if(basename($_SERVER['PHP_SELF']) == 'historic.php' || basename($_SERVER['PHP_SELF']) == 'innovation.php'|| basename($_SERVER['PHP_SELF']) == 'education.php' || basename($_SERVER['PHP_SELF']) == 'ethical.php'|| basename($_SERVER['PHP_SELF']) == 'global.php') echo "active"; ?>"><a href="historic.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil hidden-xs hidden-md" aria-hidden="true"></i> OWC: What the chemical sciences can do<b class="icon-angle-down"></b></a>
-				                                <ul class="dropdown-menu ">
+				                            <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF']) == 'historic.php' || basename($_SERVER['PHP_SELF']) == 'innovation.php'|| basename($_SERVER['PHP_SELF']) == 'education.php' || basename($_SERVER['PHP_SELF']) == 'ethical.php'|| basename($_SERVER['PHP_SELF']) == 'global.php') echo "active"; ?>"><a href="historic.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil hidden-xs hidden-md" aria-hidden="true"></i> OWC: What the chemical sciences can do<b class="icon-angle-down"></b></a>
+				                                <ul class="dropdown-menu">
 				                                	<li><a href="historic.php">Chemistry’s historic contributions</a></li>
 						                            <li><a href="innovation.php">Innovation</a></li>
 													<li><a href="education.php">Chemistry Education</a></li>					
@@ -91,14 +92,14 @@
 													<li><a href="global.php">A Global action plan </a></li>	
 				                                  </ul>
 				                            </li>
-				                            <li class="dropdown <?php if(basename($_SERVER['PHP_SELF']) == 'literature.php' ) echo "active"; ?>"><a href="literature.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-book hidden-xs hidden-md" aria-hidden="true"></i>  Resources<b class="icon-angle-down"></b></a>
+				                            <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF']) == 'literature.php' ) echo "active"; ?>"><a href="literature.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-book hidden-xs hidden-md" aria-hidden="true"></i>  Resources<b class="icon-angle-down"></b></a>
 				                                <ul class="dropdown-menu">
 				                                    <li><a href="literature.php">Literature Resources</a></li>
 				                                    
 				                                </ul>
 				                            </li>
-				                            <li class="dropdown <?php if(basename($_SERVER['PHP_SELF']) == 'contact.php' || basename($_SERVER['PHP_SELF']) == 'iocd.php' ) echo "active"; ?>"><a href="contact.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope hidden-xs hidden-md" aria-hidden="true"></i> Contact us<b class="icon-angle-down"></b></a>
-				                                <ul class="dropdown-menu ">
+				                            <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF']) == 'contact.php' || basename($_SERVER['PHP_SELF']) == 'iocd.php' ) echo "active"; ?>"><a href="contact.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope hidden-xs hidden-md" aria-hidden="true"></i> Contact us<b class="icon-angle-down"></b></a>
+				                                <ul class="dropdown-menu">
 				                                    <li><a href="contact.php">Contact OWC</a></li>
 				                                    <li><a href="iocd.php">IOCD</a></li>
 				                                </ul>
