@@ -9,7 +9,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/blue.css" id="style-switch" />
     <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="css/ie9.css"/><![endif]-->
-    <link rel="icon" type="image/png" href="images/fevicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/fevicon.ico">
     <link rel="stylesheet" type="text/css" href="css/inline.min.css" />
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
 </head>
@@ -37,10 +37,10 @@
                                 <div class="collapse navbar-collapse no-pad nav_center " id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav navbar-right no-margin">
                                         <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF'])=='index.php' || basename($_SERVER['PHP_SELF'])=='sitemap.php') echo " active "; ?>">
-                                            <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" target="_blank"> <i class="fa fa-home hidden-xs hidden-md" aria-hidden="true"></i> Home</a>
+                                            <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" target="_blank"> <i class="fa fa-home hidden-xs hidden-md" aria-hidden="true"></i> Home<b class="icon-angle-down"></b></a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="index.php">Home</a></li>
-                                                <li><a href="sitemap.php">Site map</a></li>
+                                                <li><a href="sitemap.php">Site Map</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF'])=='vision.php' || basename($_SERVER['PHP_SELF'])=='need.php'|| basename($_SERVER['PHP_SELF'])=='origins.php' || basename($_SERVER['PHP_SELF'])=='about.php') echo " active "; ?>"><a href="vision.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cog hidden-xs hidden-md" aria-hidden="true"></i> About OWC<b class="icon-angle-down"></b></a>
@@ -51,14 +51,14 @@
                                                 <li><a href="about.php">About the originators of One-World Chemistry </a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF'])=='century.php' || basename($_SERVER['PHP_SELF'])=='sustainable.php'|| basename($_SERVER['PHP_SELF'])=='unsustainable.php' ) echo " active "; ?>"><a href="century.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file-text hidden-xs hidden-md" aria-hidden="true"></i> Sustainable development<b class="icon-angle-down"></b></a>
+                                        <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF'])=='century.php' || basename($_SERVER['PHP_SELF'])=='sustainable.php'|| basename($_SERVER['PHP_SELF'])=='unsustainable.php' ) echo " active "; ?>"><a href="century.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file-text hidden-xs hidden-md" aria-hidden="true"></i> Sustainable Development<b class="icon-angle-down"></b></a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="century.php">21<sup>st</sup> Century challenges</a></li>
                                                 <li><a href="sustainable.php">Sustainable Development</a></li>
                                                 <li><a href="unsustainable.php">UN Sustainable Development Goals </a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF'])=='system.php' || basename($_SERVER['PHP_SELF'])=='cross.php') echo " active "; ?>"><a href="system.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-lightbulb-o hidden-xs hidden-md" aria-hidden="true"></i> Systems thinking<b class="icon-angle-down"></b></a>
+                                        <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF'])=='system.php' || basename($_SERVER['PHP_SELF'])=='cross.php') echo " active "; ?>"><a href="system.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-lightbulb-o hidden-xs hidden-md" aria-hidden="true"></i> Systems Thinking<b class="icon-angle-down"></b></a>
                                             <ul class="dropdown-menu">
                                                 <li class="hidden-xs hidden-sm"><a href="system.php">The need for systems thinking in the <br>chemical sciences</a></li>
                                                 <li class="hidden-md hidden-lg"><a href="system.php">The need for systems thinking in the chemical sciences</a></li>
@@ -79,7 +79,7 @@
                                                 <li><a href="literature.php">Literature Resources</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF'])=='contact.php' || basename($_SERVER['PHP_SELF'])=='iocd.php' ) echo " active "; ?>"><a href="contact.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope hidden-xs hidden-md" aria-hidden="true"></i> Contact us<b class="icon-angle-down"></b></a>
+                                        <li class="dropdown dropdown_act <?php if(basename($_SERVER['PHP_SELF'])=='contact.php' || basename($_SERVER['PHP_SELF'])=='iocd.php' ) echo " active "; ?>"><a href="contact.php" class="dropdown-toggle" id="scroll_contact" data-toggle="dropdown"><i class="fa fa-envelope hidden-xs hidden-md" aria-hidden="true"></i> Contact us<b class="icon-angle-down"></b></a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="contact.php">Contact OWC</a></li>
                                                 <li><a href="iocd.php">IOCD</a></li>
