@@ -4,13 +4,13 @@
             <div class="bread-crumb-wrap ibc-wrap-1">
                 <div class="container">
                     <div class="inner-page-title-wrap col-xs-12 col-md-12 col-sm-12">
-                        <div class="bread-heading hidden-xs hidden-sm">
+                        <div class="bread-heading">
                             <h1>A Global Action Plan</h1></div>
-                        <div class="bread-heading hidden-md hidden-lg">
-                            <h1>A Global</h1></div>
+                        <!-- <div class="bread-heading hidden-md hidden-lg">
+                            <h1>A Global</h1></div> -->
                         <div class="bread-crumb pull-right hidden-sm hidden-xs">
                             <ul>
-                                <li><a>OWC: What the chemical sciences can do</a></li>
+                                <li><a>OWC: What the Chemical Sciences Can Do</a></li>
                                 <li><a>A Global Action Plan</a></li>
                             </ul>
                         </div>

@@ -5,10 +5,10 @@
                 <div class="container">
                     <div class="inner-page-title-wrap col-xs-12 col-md-12 col-sm-12">
                         <div class="bread-heading">
-                            <h1>Chemistry's Historic Contribution</h1></div>
+                            <h1 class="title_space">Chemistry's Historic Contribution</h1></div>
                         <div class="bread-crumb pull-right hidden-sm hidden-xs">
                             <ul>
-                                <li><a>OWC: What the chemical sciences can do</a></li>
+                                <li><a>OWC: What the Chemical Sciences Can Do</a></li>
                                 <li><a>Chemistry's Historic Contribution</a></li>
                             </ul>
                         </div>

@@ -6,11 +6,11 @@
                     <div class=container>
                         <div class="col-md-12 col-sm-12 col-xs-12 inner-page-title-wrap">
                             <div class=bread-heading>
-                                <h1>About the originators of One-World Chemistry</h1></div>
+                                <h1>About the Originators of One-World Chemistry</h1></div>
                             <div class="bread-crumb hidden-sm hidden-xs pull-right">
                                 <ul>
                                     <li><a>About OWC</a>
-                                        <li><a>About the originators of One-World Chemistry</a></ul>
+                                        <li><a>About the Originators of One-World Chemistry</a></ul>
                             </div>
                         </div>
                     </div>

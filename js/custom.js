@@ -29,18 +29,18 @@
 
 //email validation
 
-	$('#email').focusout(function(){
+	 $('#email').focusout(function(){
 
-                $('#email').filter(function(){
-                   var emil=$('#email').val();
-              var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-            if( !emailReg.test( emil ) ) {
-                alert('Please enter valid email');
-                } else {
-                alert('Thank you for your valid email');
-                }
-                })
-            });
+                 $('#email').filter(function(){
+                    var emil=$('#email').val();
+               var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+             if( !emailReg.test( emil ) ) {
+                 alert('Please enter valid email');
+                 } else {
+                 alert('Thank you for your valid email');
+                 }
+                 })
+             });
 
  //accordian
 

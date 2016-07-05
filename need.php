@@ -5,11 +5,11 @@
                 <div class="container">
                     <div class="inner-page-title-wrap col-xs-12 col-md-12 col-sm-12">
                         <div class="bread-heading">
-                            <h1>Need for a unified approach</h1></div>
+                            <h1>Need for a Unified Approach</h1></div>
                         <div class="bread-crumb pull-right hidden-xs hidden-sm">
                             <ul>
                                 <li><a>About OWC</a></li>
-                                <li><a>Need for a unified approach</a></li>
+                                <li><a>Need for a Unified Approach</a></li>
                             </ul>
                         </div>
                     </div>

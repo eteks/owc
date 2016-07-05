@@ -4,14 +4,14 @@
             <div class="bread-crumb-wrap ibc-wrap-1">
                 <div class="container">
                     <div class="inner-page-title-wrap col-xs-12 col-md-12 col-sm-12">
-                        <div class="bread-heading hidden-xs hidden-sm">
-                            <h1>Ethical science</h1></div>
-                        <div class="bread-heading hidden-md hidden-lg">
-                            <h1>Ethical</h1></div>
+                        <div class="bread-heading">
+                            <h1>Ethical Science</h1> </div>
+                       	 <!-- <div class="bread-heading">
+                            <h1>Ethical</h1></div> -->
                         <div class="bread-crumb pull-right hidden-sm hidden-xs">
                             <ul>
-                                <li><a>OWC: What the chemical sciences can do</a></li>
-                                <li><a>Ethical science</a></li>
+                                <li><a>OWC: What the Chemical Sciences Can Do</a></li>
+                                <li><a>Ethical Science</a></li>
                             </ul>
                         </div>
                     </div>

@@ -18,8 +18,11 @@
                     </div>
                     <div class="copy_right_holder">
                     <div class="copy_rights">Copyright &copy; 2016 One-World Chemistry </div>
-                    <a href="http://www.atomicka.com" target="_blank"> Development Partner Infom Atomicka Tech Pvt Ltd</a>
+                    
+                    <div id="dev_partner">Development Partner<a href="http://www.atomicka.com" target="_blank"> Infom Atomicka Tech Pvt Ltd</a></div>
+                    <div class="clearfix"> </div>
                     </div><!-- copy_right_holder -->
+                    
                  </div>       
             </footer>
         </div>

@@ -5,10 +5,10 @@
                 <div class="bread-crumb-wrap ibc-wrap-2">
                     <div class="container">
                         <div class="inner-page-title-wrap col-xs-12 col-md-12 col-sm-12">
-                            <div class="bread-heading hidden-sm hidden-xs">
+                            <div class="bread-heading">
                                 <h1>Literature Resources</h1></div>
-                            <div class="bread-heading hidden-md hidden-lg">
-                                <h1>Literature</h1></div>
+                            <!-- <div class="bread-heading hidden-md hidden-lg">
+                                <h1>Literature</h1></div> -->
                             <div class="bread-crumb pull-right hidden-sm hidden-xs">
                                 <ul>
                                     <li><a>Resources</a></li>

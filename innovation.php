@@ -8,7 +8,7 @@
                             <h1>Innovation</h1></div>
                         <div class="bread-crumb pull-right hidden-sm hidden-xs">
                             <ul>
-                                <li><a>OWC: What the chemical sciences can do</a></li>
+                                <li><a>OWC: What the Chemical Sciences Can Do</a></li>
                                 <li><a>Innovation</a></li>
                             </ul>
                         </div>

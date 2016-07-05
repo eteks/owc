@@ -37,7 +37,7 @@
                         <h1>Contact OWC</h1></div>
                     <div class="bread-crumb pull-right hidden-sm hidden-xs">
                         <ul>
-                            <li><a href="#" class="sustain_link">Contact us</a></li>
+                            <li><a href="#" class="sustain_link">Contact Us</a></li>
                             <li><a>Contact OWC</a></li>
                         </ul>
                     </div>

@@ -6,11 +6,11 @@
                     <div class="container">
                         <div class="inner-page-title-wrap col-xs-12 col-md-12 col-sm-12">
                             <div class="bread-heading">
-                                <h1>Cross-disciplinary approaches</h1></div>
+                                <h1>Cross-disciplinary Approaches</h1></div>
                             <div class="bread-crumb pull-right hidden-sm hidden-xs">
                                 <ul>
-                                    <li><a>Systems thinking</a></li>
-                                    <li><a>Cross-disciplinary approaches</a></li>
+                                    <li><a>Systems Thinking</a></li>
+                                    <li><a>Cross-disciplinary Approaches</a></li>
                                 </ul>
                             </div>
                         </div>

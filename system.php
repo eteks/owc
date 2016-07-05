@@ -6,11 +6,11 @@
                     <div class="container">
                         <div class="inner-page-title-wrap col-xs-12 col-md-12 col-sm-12">
                             <div class="bread-heading">
-                                <h1>The need for systems thinking in the chemical sciences</h1></div>
+                                <h1>The Need for Systems Thinking in the Chemical Sciences</h1></div>
                             <div class="bread-crumb pull-right hidden-sm hidden-xs">
                                 <ul>
-                                    <li><a>Systems thinking</a></li>
-                                    <li><a>The need for systems thinking in the chemical sciences</a></li>
+                                    <li><a>Systems Thinking</a></li>
+                                    <li><a>The Need for Systems Thinking in the Chemical Sciences</a></li>
                                 </ul>
                             </div>
                         </div>

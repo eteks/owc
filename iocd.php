@@ -8,7 +8,7 @@
                             <h1>International Organization for Chemical Sciences in Development</h1></div>
                         <div class="bread-crumb pull-right hidden-sm hidden-xs">
                             <ul>
-                                <li><a>Contact us</a></li>
+                                <li><a>Contact Us</a></li>
                                 <li><a>IOCD</a></li>
                             </ul>
                         </div>
