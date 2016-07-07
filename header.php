@@ -16,6 +16,7 @@
 
 <body>
     <div id="loader-overlay"><img src="images/loader.gif" alt="Loading" /></div>
+    <div class="background_overlay"> </div>
     <header>
         <div class="header-bg">
             <div id="headerstic">
@@ -28,7 +29,7 @@
                                     <!-- <p class="logo_subtitle hidden-sm hidden-xs">Systems thinking to shape the chemical sciences for sustainable development</p><p class="logo_subtitle_under hidden-sm hidden-xs">An initiative of the International Organization for Chemical Sciences in Development</p>-->
                                     <h1 class="logo_subtitle_under">ONE-WORLD CHEMISTRY</h1>
                                     <h2 class="logo_subtitle">Systems thinking to shape the chemical sciences for sustainable development</h2>
-                                    <h3 class="logo_subtitle_under hidden-xs">An initiative of the International Organization for Chemical Sciences in Development</h3>
+                                    <h3 class="logo_subtitle_under">An initiative of the International Organization for Chemical Sciences in Development</h3>
                                     <div class="navbar-header hidden-md hidden-lg">
                                         <button type="button" class="navbar-toggle icon-list-ul" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> </button>
                                     </div>

@@ -71,5 +71,13 @@
         }, 600);
     });
 
-
+$('.navbar-toggle').on('click',function() {
+  if($('#bs-example-navbar-collapse-1').css('display')=='block') {
+      $('body').removeClass('prevent_scroll');
+  }
+  else {
+      $('body').addClass('prevent_scroll');
+  }
 });
+
+}); // document ready end
