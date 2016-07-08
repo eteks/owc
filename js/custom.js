@@ -1,4 +1,7 @@
  $(document).ready(function() {
+ 	
+ 		
+// Image Magnific Popup	
     
     $(".toggle-all-section").hide(), $(".toggle-button-section").click(function() {
         $(".toggle-all-section").toggle()
@@ -7,7 +10,7 @@
         type: "image"
     }), $("#photo-carousel").carousel({
         interval: 5e3
-    })
+    });
     
 //  code work with those browser which does not support required attribute-validation (safari)//
  
@@ -27,24 +30,47 @@
 		    });  return true;
 		});
 
-//email validation
+// //email validation
 
-	 $('#email').focusout(function(){
-
-                 $('#email').filter(function(){
-                    var emil=$('#email').val();
-               var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-             if( !emailReg.test( emil ) ) {
-                 alert('Please enter valid email');
-                 } else {
-                 alert('Thank you for your valid email');
-                 }
-                 })
-             });
-
- //accordian
-
-     $('.tab-content').each(function() {
+ $('#contactForm1').validate({
+ 	     errorClass:'error_input_field',
+          rules: {
+              name: {
+                  required: true
+              },
+              email: {
+                  required: true
+              },
+               subject: {
+                  required: true
+              },
+               message: {
+                  required: true
+              },
+              
+              
+          },
+          
+         
+          showErrors: function (errorMap, errorList) {
+              if (typeof errorList[0] != "undefined") {
+              	  
+                  var position = $(errorList[0].element).position().top;
+                  $('html, body').animate({
+                      scrollTop: position
+                  }, 300);
+                  
+                 
+              }
+              this.defaultShowErrors();
+              
+          }
+      });
+ 
+ 
+  //accordian
+ 
+      $('.tab-content').each(function() {
       $(this).next('.read').click(function() {
        $('.read').css('display','inline');
        $(this).css('display','none');
@@ -81,3 +107,5 @@ $('.navbar-toggle').on('click',function() {
 });
 
 }); // document ready end
+
+

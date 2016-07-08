@@ -19103,3 +19103,18 @@ ol.text-indent li {
     overflow: hidden;
 }
 
+input.error_input_field {
+	border: 1px solid red !important;	
+}
+
+textarea.error_input_field {
+	border: 1px solid red !important;	
+}
+
+label.error_input_field {
+	bottom: -4px;
+    color: red !important;
+    font-size: 12px;
+    left: 14px;
+    position: absolute;	
+}

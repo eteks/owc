@@ -61,16 +61,16 @@
                                             </div>
                                             <form class="contact2-page-form col-lg-12 col-sm-12 col-md-12 col-xs-12 no-pad contact-v1" id="contactForm1" method="post">
                                                 <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12 control-group">
-                                                    <input type="text" class="contact2-textbox" placeholder="Name*" name="name" id="name" required />
+                                                    <input type="text" class="contact2-textbox" placeholder="Name*" name="name" id="name"  />
                                                 </div>
                                                 <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12 control-group">
-                                                    <input type="email" class="contact2-textbox" placeholder="Email*" name="email" id="email" required/>
+                                                    <input type="email" class="contact2-textbox" placeholder="Email*" name="email" id="email" />
                                                 </div>
                                                 <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12 control-group">
-                                                    <input type="text" placeholder="Subject*" class="contact2-textbox" name="subject" id="subject" required>
+                                                    <input type="text" placeholder="Subject*" class="contact2-textbox" name="subject" id="subject" />
                                                 </div>
                                                 <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-                                                    <textarea class="contact2-textarea" placeholder="Message*" name="message" id="message" required></textarea>
+                                                    <textarea class="contact2-textarea" placeholder="Message*" name="message" id="message" /></textarea>
                                                 </div>
                                                 <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
                                                     <section class="color-7" id="btn-click">

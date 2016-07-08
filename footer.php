@@ -31,6 +31,7 @@
         <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
         <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>  
         <script type="text/javascript" src="bootstrap-new/js/bootstrap.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
         
         <script type='text/javascript'>
